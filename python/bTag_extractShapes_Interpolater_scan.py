@@ -123,7 +123,9 @@ if __name__ == '__main__':
 
     if (model == "qq"):
       sampleNames = sampleNames_qq
+      flavor = 'bb'
     elif (model == "qg"):
+      flavor = 'bg'
       sampleNames = sampleNames_qg
     elif (model == "gg"):
       sampleNames = sampleNames_gg
@@ -146,13 +148,13 @@ if __name__ == '__main__':
       if model == 'qq':
 	effFile = rt.TFile(options.eff+'/signalHistos_bb_'+str(int(i*1000))+'.root')  
       for Type in LIST:
-	rootFile = rt.TFile(outFolder+"/ResonanceShapes_"+model+"_bg_13TeV_Spring16_"+str(int(i*1000))+'_'+Type+".root", 'recreate')
+	rootFile = rt.TFile(outFolder+"/ResonanceShapes_"+model+"_"+flavor+"_13TeV_Spring16_"+str(int(i*1000))+'_'+Type+".root", 'recreate')
         for mass, sample in sorted(sampleNames.iteritems()):  
           if (model == "qq"):
-             g_eff = effFile.Get("g_2btag_rate")
+             g_eff = effFile.Get("g_le1btag_rate")
 
           elif (model == "qg"):
-             g_eff = effFile.Get("g_1btag_rate")
+             g_eff = effFile.Get("g_le1tag_rate")
           else:
             print "model unknown"
             exit

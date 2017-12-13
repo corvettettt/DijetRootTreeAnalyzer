@@ -54,7 +54,6 @@ def Edit_RunCombine(file_name,box,jesu,jesd,jer,nor,bg):
   Out = open(file_name,'w+')
   Out.write(b)
   Out.close
-#'python/RunCombine_I_bbox+scan.py')
 
 def Edit_Config(file_name,box,histoname):
   a = open(file_name).read()

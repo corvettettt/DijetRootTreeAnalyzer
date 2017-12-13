@@ -205,7 +205,7 @@ def bookAndFill(mass,sample,flavour):
               #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj)
               hDict[i]["h_weight_0b"].Fill(tchain.evtBweight_m)
-           if NBjet >= 1:
+           if NBjet == 1:
               #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj)
               hDict[i]["h_weight_1b"].Fill(tchain.evtBweight_m)
@@ -264,7 +264,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_ForScan'
+    outFolder = "signalHistos_"+flavour+'_Dec13_ForScan'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
