@@ -83,5 +83,5 @@ if __name__=='__main__':
     histoN = options.histoN
 
 
-    Edit_RunCombine('python/RunCombine_I_btag.pytest',box,jesu,jesd,jer,nor,bg)
-    Edit_Config('config/dijet.configtest',box,histoN)
+    Edit_RunCombine('python/RunCombine_I_btag.py',box,jesu,jesd,jer,nor,bg)
+    Edit_Config('config/dijet.config',box,histoN)
