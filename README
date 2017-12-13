@@ -2,18 +2,18 @@ For Scan
 ============
 
 ```
-  1. python python/bTag_signalStudies_scan.py -m qg -f bg  #(or qq/bb ) 
-  2.python python/bTag_extractShapes_Interpolater_scan.py -m qg -e #(Folder name produced in last step)
+1. python python/bTag_signalStudies_scan.py -m qg -f bg  #(or qq/bb ) 
+2.python python/bTag_extractShapes_Interpolater_scan.py -m qg -e #(Folder name produced in last step)
 
 After these two step, you will have a large amount of JESUP, JESDOWN and JER in the folder. 
-  1. add a new box in the config/dijet.config
-  2. change the histoName of this box
-  3. modifiy the python/RunCombine_I_btag.py, add the JESUP, JESDOWN and JER to the right position. 
-  4. modifiy the python/RunCombine_I_btag.py, add the Nominal. 
-  6. modifiy the python/RunCombine_I_btag.py, add the background of this box
+1. add a new box in the config/dijet.config
+2. change the histoName of this box
+3. modifiy the python/RunCombine_I_btag.py, add the JESUP, JESDOWN and JER to the right position. 
+4. modifiy the python/RunCombine_I_btag.py, add the Nominal. 
+6. modifiy the python/RunCombine_I_btag.py, add the background of this box
 
 Then all the preparation is ready. You can use the following command to excute everything:
-  python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
+python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
 #option:( -b : box name / -f Folder which stores Fit Result / -o Folder which stores limit / -s Nominal root file place / -m model / -p expected or observed)
 
 #  this will excute the following command:
