@@ -9,10 +9,13 @@ For Scan
 
 For Normal 
 ============
+
+```
 1. python python/bTag_extractShapes_Interpolater_le1.py  -m qg -f bg  #(or qq/bb )
 2. python python/bTag_signalStudies_le1.py -m qg -e #(Folder name produced in last step)
+```
 
-
+```
 After these two step, you will have a large amount of JESUP, JESDOWN and JER in the folder. 
 1. add a new box in the config/dijet.config
 2. change the histoName of this box
