@@ -20,11 +20,14 @@ Then
 ============
 ```
 After these two step, you will have a large amount of JESUP, JESDOWN and JER in the folder. 
+You can use TIP2 to do the following steps:
 1. add a new box in the config/dijet.config
 2. change the histoName of this box
 3. modifiy the python/RunCombine_I_btag.py, add the JESUP, JESDOWN and JER to the right position. 
 4. modifiy the python/RunCombine_I_btag.py, add the Nominal. 
 6. modifiy the python/RunCombine_I_btag.py, add the background of this box
+
+
 
 Then all the preparation is ready. You can use the following command to excute everything:
 python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
@@ -40,4 +43,18 @@ python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_q
 After that, there will be a print out to show the limit.
 ```
 
+TIP1
+============
+```
+inputs/JetHT_run2016_moriond17_red_cert_v2.root       --> original one
+inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root  --> use for scan, 0.1~0.95 with 0.5 step + 0.935
+inputs/JetHT_run2016_moriond17_red_cert_v2_all.root   --> use for no-tag applied(no requirement)
+inputs/JetHT_run2016_moriond17_red_cert_v2_le1.root   --> use for more than 0 btag.
+```
 
+TIP2
+============
+```
+python python/bTag_Add.py -u test1 -d test2 -r test3 -n test4 -g test5 -b testbox -H test7
+#option:(-u Jet energy scale up / -d Jet energy scale down / -r Jet energy resolution / -n nominal / -g background / -b box name / -H histo name in bg file)
+```
