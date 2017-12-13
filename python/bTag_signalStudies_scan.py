@@ -264,7 +264,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Scan_Dec8'
+    outFolder = "signalHistos_"+flavour+'_ForScan'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
