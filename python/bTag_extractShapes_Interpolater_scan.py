@@ -79,10 +79,7 @@ def makeShape(mass, sample, model):
           myHisto[i].Fill(Mjj[i]/mass)
 
     for i in LIST:
-       print myHisto[i].Integral()
        myHisto[i].Scale(1./myHisto[i].GetEntries())
-       print myHisto[i].Integral()
-       print    
  
     return myHisto
 
@@ -118,7 +115,7 @@ if __name__ == '__main__':
 
 
     LIST=['Nominal','JER','JESUP','JESDOWN'] 
-    CSV_Value=[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
+    CSV_Value=[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
     histo={}
 
     if (model == "qq"):
@@ -134,9 +131,9 @@ if __name__ == '__main__':
 
 
     if model=='qq':
-      outFolder = 'signalHistos_bb_Scan_Dec8'
+      outFolder = effFile
     elif model=='qg':
-      outFolder = 'signalHistos_bg_Scan_Dec8' 
+      outFolder = effFile
 
     for mass, sample in sorted(sampleNames.iteritems()):
        histo[mass] = makeShape(mass,sample,model)

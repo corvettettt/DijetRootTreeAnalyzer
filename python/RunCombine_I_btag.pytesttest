@@ -247,78 +247,6 @@ def main(options,args):
                  signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JESDOWN.root'
                  signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JER.root'
 
-            elif box=='PFDijet2016Scan_100'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER.root'
-
-            elif box=='PFDijet2016Scan_150'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_150_JER.root'
-
-            elif box=='PFDijet2016Scan_200'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER.root'
-
-            elif box=='PFDijet2016Scan_250'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER.root'
-
-            elif box=='PFDijet2016Scan_300'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER.root'
-
-            elif box=='PFDijet2016Scan_350'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER.root'
-
-            elif box=='PFDijet2016Scan_400'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER.root'
-
-            elif box=='PFDijet2016Scan_450'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_450_JER.root'
-
-            elif box=='PFDijet2016Scan_500'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_500_JER.root'
-
-            elif box=='PFDijet2016Scan_550'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_550_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_550_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_550_JER.root'
-
-            elif box=='PFDijet2016Scan_600'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER.root'
-
-            elif box=='PFDijet2016Scan_650'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER.root'
-
-            elif box=='PFDijet2016Scan_700'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER.root'
-
-            elif box=='PFDijet2016Scan_750'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER.root'
-
-            elif box=='PFDijet2016Scan_800'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER.root'
-
-            elif box=='PFDijet2016Scan_850'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_850_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_850_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_850_JER.root'
-
-            elif box=='PFDijet2016Scan_900'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_900_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_900_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_900_JER.root'
-
-            elif box=='PFDijet2016Scan_950'
-                 signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_950_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_950_JESDOWN.root'
-                 signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_950_JER.root'
-
             elif box=='PFDijet2016Scan_935'
                  signalSys += ' --jesUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JESUP.root --jesDown signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JESDOWN.root'
                  signalSys += ' --jerUp signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_JER.root'
@@ -378,60 +306,6 @@ def main(options,args):
         elif box=='PFDijet2016Scan_935':
                 signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_Nominal.root'
 
-        elif box=='PFDijet2016Scan_100':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal.root'
-
-        elif box=='PFDijet2016Scan_150':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_150_Nominal.root'
-
-        elif box=='PFDijet2016Scan_200':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal.root'
-
-        elif box=='PFDijet2016Scan_250':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal.root'
-
-        elif box=='PFDijet2016Scan_300':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal.root'
-
-        elif box=='PFDijet2016Scan_350':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal.root'
-
-        elif box=='PFDijet2016Scan_400':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal.root'
-
-        elif box=='PFDijet2016Scan_450':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_450_Nominal.root'
-
-        elif box=='PFDijet2016Scan_500':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_500_Nominal.root'
-
-        elif box=='PFDijet2016Scan_550':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_550_Nominal.root'
-
-        elif box=='PFDijet2016Scan_600':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal.root'
-
-        elif box=='PFDijet2016Scan_650':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal.root'
-
-        elif box=='PFDijet2016Scan_700':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal.root'
-
-        elif box=='PFDijet2016Scan_750':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal.root'
-
-        elif box=='PFDijet2016Scan_800':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal.root'
-
-        elif box=='PFDijet2016Scan_850':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_850_Nominal.root'
-
-        elif box=='PFDijet2016Scan_900':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_900_Nominal.root'
-
-        elif box=='PFDijet2016Scan_950':
-                signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_950_Nominal.root'
-
         elif box=='PFDijet2016Scan_935':
                 signalDsName = 'signalHistos_bb_Dec13_ForScan/ResonanceShapes_qq_bb_13TeV_Spring16_935_Nominal.root'
 
@@ -459,42 +333,6 @@ def main(options,args):
                             'PFDijetbg20161ttG':'inputs/JetHT_run2016_moriond17_red_cert_v2_le1.root',
 			    'PFDijetbb20162mmC':'inputs/JetHT_run2016_moriond17_red_cert_v2.root',
                             'PFDijet2016Scan_935':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_100':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_150':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_200':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_250':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_300':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_350':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_400':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_450':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_500':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_550':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_600':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_650':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_700':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_750':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_800':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_850':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_900':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
-
-                            'PFDijet2016Scan_950':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
 
                             'PFDijet2016Scan_935':'inputs/JetHT_run2016_moriond17_red_cert_v2_scan.root',
 

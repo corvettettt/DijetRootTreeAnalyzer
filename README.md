@@ -1,10 +1,19 @@
+cmsrel CMSSW_7_4_14
+cd CMSSW_7_4_14/src/
+cmsenv
+git clone https://github.com/corvettettt/DijetRootTreeAnalyzer.git
+git clone -b dijetpdf_74X https://github.com/RazorCMS/HiggsAnalysis-CombinedLimit HiggsAnalysis/CombinedLimit
+scram b -j 4
+cd DijetRootTreeAnalyzer
+
 For Scan
 ============
 
 ```
-1. python python/bTag_signalStudies_scan.py -m qg -f bg  #(or qq/bb ) 
-2.python python/bTag_extractShapes_Interpolater_scan.py -m qg -e #(Folder name produced in last step)
-
+1. python python/bTag_signalStudies_scan.py -m qq -f bg  #(or qq/bb ) 
+2. python python/bTag_extractShapes_Interpolater_scan.py -m qq -e #(Folder name produced in last step)
+3. python python/extract.py -i #(Folder name produced in last step) -m qq
+4. python python/ReScaleInterpolation.py -m qq -F #(Folder name produced in last step)
 ```
 
 For Normal 
@@ -30,7 +39,7 @@ You can use TIP2 to do the following steps:
 
 
 Then all the preparation is ready. You can use the following command to excute everything:
-python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
+python python/Working.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
 #option:( -b : box name / -f Folder which stores Fit Result / -o Folder which stores limit / -s Nominal root file place / -m model / -p expected or observed)
 
 #  this will excute the following command:
@@ -41,6 +50,9 @@ python Wokring.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_q
 
 
 After that, there will be a print out to show the limit.
+
+Or, for scan purpose, you can do:
+
 ```
 
 TIP1
@@ -55,6 +67,14 @@ inputs/JetHT_run2016_moriond17_red_cert_v2_le1.root   --> use for more than 0 bt
 TIP2
 ============
 ```
+python python/bTag_ForScan.py  -f signalHistos_bb_Dec13_ForScan -t PFDijet2016Scan_ -m qq -c le1
+#option (-f Folder contains all root files. / -t tag of the boxes / -m model / -c btag catagory)
+--> add all scan jes, jer, norminal and so on
+
+
 python python/bTag_Add.py -u test1 -d test2 -r test3 -n test4 -g test5 -b testbox -H test7
 #option:(-u Jet energy scale up / -d Jet energy scale down / -r Jet energy resolution / -n nominal / -g background / -b box name / -H histo name in bg file)
+-> just add one jes, jer, nominal and so on .
+
+
 ```

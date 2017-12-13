@@ -6,8 +6,10 @@ if __name__=='__main__':
 
   parser = OptionParser()
   parser.add_option('-m','--model',dest='model',type='string',default='none',help='model') 
+  parser.add_option('-F','--Folder',dest= 'Folder',type='string',default='none',help='Name of Folder')
   (options,args) = parser.parse_args()
   model = options.model
+  folder = options.Folder
   if model =='qq':
     flavor = 'bb'
   if model =='qg':
@@ -17,12 +19,12 @@ if __name__=='__main__':
 
   for k in CSV_Value:
  
-    eff = TFile('signalHistos_'+flavor+'_'+str(int(k*1000))+'.root')
+    eff = TFile(folder+'/signalHistos_'+flavor+'_'+str(int(k*1000))+'.root')
     eff_rate=eff.Get('g_le1btag_rate')
 
     histo={}
     for j in ['JER','JESUP','JESDOWN','Nominal']:
-      rootFile = TFile('ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+str(int(k*1000))+'_'+j+'_Interpolation.root')
+      rootFile = TFile(folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+str(int(k*1000))+'_'+j+'_Interpolation.root')
       Hlist = rootFile.GetListOfKeys()
       names = [i.GetName() for i in Hlist]
 
@@ -32,9 +34,11 @@ if __name__=='__main__':
       for i in names:
         mass = int(i.split('_')[2])
         eff_rate_mass = eff_rate.Eval(mass)
+        print k,' + ',mass,' : ', eff_rate_mass
         histo[i].Scale(eff_rate_mass)
+	print histo[i].Integral()
  
-      output=TFile('ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+str(int(k*1000))+'_'+j+'_Interpolation_rescale.root','recreate')
+      output=TFile(folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+str(int(k*1000))+'_'+j+'_Interpolation_rescale.root','recreate')
       for i in names:
         histo[i].Write()
       output.Close
