@@ -15,6 +15,9 @@ For Normal
 2. python python/bTag_signalStudies_le1.py -m qg -e #(Folder name produced in last step)
 ```
 
+
+Then
+============
 ```
 After these two step, you will have a large amount of JESUP, JESDOWN and JER in the folder. 
 1. add a new box in the config/dijet.config
