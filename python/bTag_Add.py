@@ -40,7 +40,7 @@ combine_pdfs = ['RooDijetBinPdf::BOXNAME_bkg(th1x,p1_PFDijetbb20162mm,p2_PFDijet
 signal_mjj = [1246, 1313, 1383, 1455, 1530, 1607, 1687, 1770, 1856, 1945, 2037, 2132, 2231, 2332, 2438, 2546, 2659, 2775, 2895, 3019, 3147, 3279, 3416, 3558, 3704, 3854, 4010, 4171, 4337, 4509, 4686, 4869, 5058, 5253, 5455, 5663, 5877, 6099, 6328, 6564, 6808, 7060, 7320, 7589, 7866]
 signal_th1x = range(0,44+1)'''
   content_r = content.replace('BOXNAME',box).replace('HISTONAME',histoname)
-  return content 
+  return content_r 
 
 def Edit_RunCombine(file_name,box,jesu,jesd,jer,nor,bg):
   a = open(file_name).read()

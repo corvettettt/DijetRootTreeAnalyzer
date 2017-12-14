@@ -1,10 +1,22 @@
+Set up
+============
+
+```
 cmsrel CMSSW_7_4_14
+
 cd CMSSW_7_4_14/src/
+
 cmsenv
+
 git clone https://github.com/corvettettt/DijetRootTreeAnalyzer.git
+
 git clone -b dijetpdf_74X https://github.com/RazorCMS/HiggsAnalysis-CombinedLimit HiggsAnalysis/CombinedLimit
+
 scram b -j 4
+
 cd DijetRootTreeAnalyzer
+```
+
 
 For Scan
 ============
