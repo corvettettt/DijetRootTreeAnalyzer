@@ -3,7 +3,7 @@ from optparse import OptionParser
 
 def Modify_JU(box,jesu,jesd,jer):
   content = ''
-  content += '            elif box==\''+box+'\'\n'
+  content += '            elif box==\''+box+'\':\n'
   content += '                 signalSys += \' --jesUp '+jesu+' --jesDown '+jesd+'\'\n'
   content += '                 signalSys += \' --jerUp '+jer+'\''
   return content
