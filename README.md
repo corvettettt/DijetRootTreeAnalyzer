@@ -24,7 +24,7 @@ For Scan
 ```
 1. python python/bTag_signalStudies_scan.py -m qq -f bg  #(or qq/bb ) 
 2. python python/bTag_extractShapes_Interpolater_scan.py -m qq -e #(Folder name produced in last step)
-3. python python/extract.py -i #(Folder name produced in last step) -m qq
+3. python python/extract.py -m qq -i #(Folder name produced in last step)
 4. python python/ReScaleInterpolation.py -m qq -F #(Folder name produced in last step)
 ```
 

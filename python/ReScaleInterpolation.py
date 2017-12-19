@@ -34,9 +34,7 @@ if __name__=='__main__':
       for i in names:
         mass = int(i.split('_')[2])
         eff_rate_mass = eff_rate.Eval(mass)
-        print k,' + ',mass,' : ', eff_rate_mass
         histo[i].Scale(eff_rate_mass)
-	print histo[i].Integral()
  
       output=TFile(folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+str(int(k*1000))+'_'+j+'_Interpolation_rescale.root','recreate')
       for i in names:

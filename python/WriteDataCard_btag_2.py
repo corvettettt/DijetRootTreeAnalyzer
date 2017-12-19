@@ -490,9 +490,9 @@ if __name__ == '__main__':
         d = signalFile.Get(name)
         if isinstance(d, rt.TH1):
             #d.SetDirectory(rt.gROOT)
-	    print name 
-	    print 'h_%s_%i'%(model,massPoint)
-	    print
+	  #  print name 
+	  #  print 'h_%s_%i'%(model,massPoint)
+	  #  print
             if name=='h_%s_%i'%(model,massPoint):
                 print "====>>> Before: ", signalXsec,lumi,d.Integral()
                 d.Scale(signalXsec*lumi)
