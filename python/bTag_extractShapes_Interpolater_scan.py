@@ -151,7 +151,7 @@ if __name__ == '__main__':
              g_eff = effFile.Get("g_le1btag_rate")
 
           elif (model == "qg"):
-             g_eff = effFile.Get("g_le1tag_rate")
+             g_eff = effFile.Get("g_le1btag_rate")
           else:
             print "model unknown"
             exit
