@@ -51,8 +51,10 @@ You can use TIP2 to do the following steps:
 
 
 Then all the preparation is ready. You can use the following command to excute everything:
+
 python python/Working.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o cards_qq_freq_100_scan -s signalHistos_bb_FinalScan/ResonanceShapes_qq_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root -m qq -p exp
-#option:( -b : box name / -f Folder which stores Fit Result / -o Folder which stores limit / -s Nominal root file place / -m model / -p expected or observed)
+
+# option:( -b : box name / -f Folder which stores Fit Result / -o Folder which stores limit / -s Nominal root file place / -m model / -p expected or observed)
 
 #  this will excute the following command:
 #  1. python python/BinnedFit.py -c config/dijet.config -l 35900 -m qq -s signalHistos_bg/ResonanceShapes_qg_bb_13TeV_Spring16.root xinputs/JetHT_run2016_moriond17_red_cert_v2.root -b PFDijetbg20161tt -d fits_2017_04/PFDijetbg20161tt/ --fit-spectrum
@@ -64,6 +66,11 @@ python python/Working.py -b PFDijetbb2016Scan100 -f PFDijetbb2016Scan100Scan -o 
 After that, there will be a print out to show the limit.
 
 Or, for scan purpose, you can do:
+
+python python/excute.py -p exp -m qq -F signalHistos_bb_Dec13_ForScan -t PFDijet2016Scan
+
+# option:(-p expected or observed / -m model -F Folder in which all root files are / -t tag of boxes)
+
 
 ```
 
