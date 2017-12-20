@@ -307,12 +307,12 @@ if __name__ == '__main__':
         else:
             thyModelsToDraw = []
     elif options.model=='qq':        
-        if 'PF' in options.box:
-            thyModelsToDraw = ['AxigluonNLO','E6Diquark',"W'","Z'",'DM1GeV']            
-        if 'PF' in options.box and 'bb' in options.box:
+#        if 'PF' in options.box:
+#            thyModelsToDraw = ['AxigluonNLO','E6Diquark',"W'","Z'",'DM1GeV']            
+        if 'PF' in options.box :
             thyModelsToDraw = ['colorons'] 
-        else:
-            thyModelsToDraw = ['AxigluonkNLO','E6Diquark',"W'","Z'",'DM1GeV']            
+#        else:
+#            thyModelsToDraw = ['AxigluonkNLO','E6Diquark',"W'","Z'",'DM1GeV']            
     elif options.model=='qg':
 	if 'PFDijetbg20161tt' == options.box:
 	    thyModelsToDraw = ['b*']
@@ -469,7 +469,7 @@ if __name__ == '__main__':
 	         print thyModel
 	         FindPoint(gluinoMassArray[(Box,model)], expectedLimit[(Box,model)], mass_xsec[thyModel], sig_xsec[thyModel])
 	         print
-              if output=='exp': 
+              if output=='obs': 
                  print thyModel
                  FindPoint(gluinoMassArray[(Box,model)], observedLimit[(Box,model)], mass_xsec[thyModel], sig_xsec[thyModel])
                  print
