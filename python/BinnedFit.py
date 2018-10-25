@@ -293,9 +293,11 @@ if __name__ == '__main__':
     for f in args:
         if f.lower().endswith('.root'):
             rootFile = rt.TFile(f)
+	    print rootFile
             names = [k.GetName() for k in rootFile.GetListOfKeys()]
             if histoName in names:
                 myTH1 = rootFile.Get(histoName)
+	        print myTH1	
     if myTH1 is None:
         print "give a root file as input"
 
@@ -844,7 +846,7 @@ if __name__ == '__main__':
     #paper 
     pad_1.SetPad(0.01,0.37,0.99,0.98)
     pad_1.SetLogy()
-    if 'PF' in box or w.var('mjj').getMax() > 2037:
+    if 'Sept' in box or 'PF' in box or w.var('mjj').getMax() > 2037:
         pad_1.SetLogx()
     pad_1.SetRightMargin(0.05)
     pad_1.SetTopMargin(0.05)
@@ -861,7 +863,7 @@ if __name__ == '__main__':
     pad_2.SetRightMargin(0.05)
     pad_2.SetGridx()
     pad_2.SetGridy()
-    if 'PF' in box or w.var('mjj').getMax() > 2037:
+    if 'Sept' in box or 'PF' in box or w.var('mjj').getMax() > 2037:
         pad_2.SetLogx()
 
     pad_1.cd()
@@ -888,7 +890,7 @@ if __name__ == '__main__':
     myRebinnedDensityTH1.SetLineColor(rt.kWhite)
     myRebinnedDensityTH1.SetMarkerColor(rt.kWhite)
     myRebinnedDensityTH1.SetLineWidth(0)    
-    if 'PF' in box:
+    if 'PF' in box or 'Sept' in box:
         myRebinnedDensityTH1.SetMaximum(20)
         myRebinnedDensityTH1.SetMinimum(2e-8)
     elif 'Calo' in box:
@@ -985,7 +987,7 @@ if __name__ == '__main__':
     leg.AddEntry(g_data,"Data","pe")
     leg.AddEntry(background,"Fit","l")
     for model, mass, xsec, signalFileName, g_signal in zip(models,masses,xsecs,signalFileNames, g_signals):
-        if 'PF' in box:
+        if 'Sept' in box or 'PF' in box:
             leg.AddEntry(g_signal,"%s (%.1f TeV)"%(model,float(mass)/1000.),"l")
         elif 'Calo' in box:
             if w.var('mjj').getMax() > 2037:
@@ -1017,7 +1019,7 @@ if __name__ == '__main__':
         else:
             pave_sel.AddText("%.2f < m_{jj} < %.2f TeV"%(w.var('mjj').getMin('Low')/1000.,w.var('mjj').getMax('High')/1000.))
             #pave_sel.AddText("%i < m_{jj} < %i GeV"%(w.var('mjj').getMin('Low'),w.var('mjj').getMax('High')))
-    elif 'PF' in box:
+    elif 'Sept' in box or 'PF' in box:
         pave_sel.AddText("Wide PF-jets")        
         #pave_sel.AddText("%.1f < m_{jj} < %.1f TeV"%(w.var('mjj').getMin('Low')/1000.,w.var('mjj').getMax('High')/1000.))
         pave_sel.AddText("m_{jj} > %.2f TeV"%(w.var('mjj').getMin('Low')/1000.))
@@ -1075,7 +1077,7 @@ if __name__ == '__main__':
 
 
     
-    if 'PF' in box:
+    if 'Sept' in box or 'PF' in box:
         # paper
         myRebinnedDensityTH1.GetYaxis().SetTitle('d#sigma/dm_{jj} [pb/TeV]')
         # PAS
@@ -1160,7 +1162,7 @@ if __name__ == '__main__':
 
     h_fit_residual_vs_mass.Draw("histsame")
     
-    if 'PF' in box or w.var('mjj').getMax() > 2037:        
+    if 'Sept' in box or 'PF' in box or w.var('mjj').getMax() > 2037:        
         # PAS
         #h_fit_residual_vs_mass.GetXaxis().SetTitle('Dijet Mass [TeV]')
         # paper

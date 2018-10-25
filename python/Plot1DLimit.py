@@ -309,10 +309,8 @@ if __name__ == '__main__':
     elif options.model=='qq':        
 #        if 'PF' in options.box:
 #            thyModelsToDraw = ['AxigluonNLO','E6Diquark',"W'","Z'",'DM1GeV']            
-        if 'PF' in options.box :
+        if 'Sept' in options.box or 'PF' in options.box :
             thyModelsToDraw = ['colorons'] 
-#        else:
-#            thyModelsToDraw = ['AxigluonkNLO','E6Diquark',"W'","Z'",'DM1GeV']            
     elif options.model=='qg':
 	if 'PFDijetbg20161tt' == options.box:
 	    thyModelsToDraw = ['b*']
@@ -320,8 +318,9 @@ if __name__ == '__main__':
 	    thyModelsToDraw = ['b*']
         elif 'PF' in options.box:
             thyModelsToDraw = ['b*']
+         
         else:
-            thyModelsToDraw = ['q*']        
+            thyModelsToDraw = ['b*']        
     elif options.model=='gg_qq_gaus' or options.model=='gg_qq_gaus10':
         thyModelsToDraw = ['AxigluonkNLO','E6Diquark',"W'","Z'"]
     elif options.model=='gg_qg_qq':

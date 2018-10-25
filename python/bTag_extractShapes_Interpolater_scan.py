@@ -103,9 +103,11 @@ if __name__ == '__main__':
                       help="Name of the signal model")
     parser.add_option('-e','--eff',dest="eff",type="string",default="signalHistos_bb/signalHistos_bb.root",
                       help="file containing the b-tag eff plot")
+    parser.add_option('-c','--cate',dest="cate",type="string",default="le1b",
+                      help="category 0b/1b/2b/le1b")
     (options,args) = parser.parse_args()
     model   = options.model
-
+    cate    = options.cate
     effFile = options.eff
 
     print "signal model    :",model
@@ -115,7 +117,9 @@ if __name__ == '__main__':
 
 
     LIST=['Nominal','JER','JESUP','JESDOWN'] 
-    CSV_Value=[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
+    CSV_Value=[0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693]
+#[0.1,0.15,0.2,0.3,0.35,0.45,0.5,0.5803,0.65,0.75,0.8,0.8838,0.9,0.9693]
+    #CSV_Value=[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.5803,0.60,0.65,0.70,0.75,0.8,0.85,0.8838,0.9,0.935,0.95,0.9693]#[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
     histo={}
 
     if (model == "qq"):
@@ -148,10 +152,10 @@ if __name__ == '__main__':
 	rootFile = rt.TFile(outFolder+"/ResonanceShapes_"+model+"_"+flavor+"_13TeV_Spring16_"+str(int(i*1000))+'_'+Type+".root", 'recreate')
         for mass, sample in sorted(sampleNames.iteritems()):  
           if (model == "qq"):
-             g_eff = effFile.Get("g_le1btag_rate")
+             g_eff = effFile.Get("g_"+cate+"tag_rate")
 
           elif (model == "qg"):
-             g_eff = effFile.Get("g_le1btag_rate")
+             g_eff = effFile.Get("g_"+cate+"tag_rate")
           else:
             print "model unknown"
             exit

@@ -23,11 +23,11 @@ def Modify_box(box,histoname):
   content = ''
   content += '''
 [BOXNAME]
-variables = ['mjj[1246.,1246.,7866.]','th1x[0,0,44]']
+variables = ['mjj[1530.,1530.,7866.]','th1x[0,0,44]']
 
 histoName = 'HISTONAME'
 
-variables_range = ['mjj_Low[1246.,7866.]', 'mjj_Blind[1246.,7866.]', 'mjj_High[1246.,7866.]']
+variables_range = ['mjj_Low[1530.,7866.]', 'mjj_Blind[1530.,7866.]', 'mjj_High[1530.,7866.]']
 
 combine_parameters = ['Ntot_bkg_BOXNAME[1.e+04]', 'p0_BOXNAME[1]', 'p1_BOXNAME[-14]', 'p2_BOXNAME[13]','p3_BOXNAME[1.2]',
               'sqrts[13000]','BOXNAME_bkg_norm[1]',
@@ -38,10 +38,13 @@ combine_pdfs = ['RooDijetBinPdf::BOXNAME_bkg(th1x,p1_BOXNAME,p2_BOXNAME,p3_BOXNA
                 'SUM::extDijetPdf(Ntot_bkg_BOXNAME*BOXNAME_bkg)']
 
 #signal and plotting binning 
-signal_mjj = [1246, 1313, 1383, 1455, 1530, 1607, 1687, 1770, 1856, 1945, 2037, 2132, 2231, 2332, 2438, 2546, 2659, 2775, 2895, 3019, 3147, 3279, 3416, 3558, 3704, 3854, 4010, 4171, 4337, 4509, 4686, 4869, 5058, 5253, 5455, 5663, 5877, 6099, 6328, 6564, 6808, 7060, 7320, 7589, 7866]
+signal_mjj = [1530, 1607, 1687, 1770, 1856, 1945, 2037, 2132, 2231, 2332, 2438, 2546, 2659, 2775, 2895, 3019, 3147, 3279, 3416, 3558, 3704, 3854, 4010, 4171, 4337, 4509, 4686, 4869, 5058, 5253, 5455, 5663, 5877, 6099, 6328, 6564, 6808, 7060, 7320, 7589, 7866]
 signal_th1x = range(0,44+1)
 '''
-  content_r = content.replace('BOXNAME',box).replace('HISTONAME',histoname)
+  if 'Non' in box:
+    content_r = content.replace('BOXNAME',box).replace('HISTONAME','total')
+  else:
+    content_r = content.replace('BOXNAME',box).replace('HISTONAME',histoname)
   return content_r 
 
 def Edit_RunCombine(file_name,box,jesu,jesd,jer,nor,bg):

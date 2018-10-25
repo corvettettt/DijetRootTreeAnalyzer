@@ -17,29 +17,28 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qq = {
-                   500 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/500GeV_reduced_skim.root',
-                   750 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/750GeV_reduced_skim.root',
-                   1000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/1000GeV_reduced_skim.root',
-                   4000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/4000GeV_reduced_skim.root',
-                   3000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/3000GeV_reduced_skim.root',
-                   5000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/5000GeV_reduced_skim.root',
-                   6000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/6000GeV_reduced_skim.root',
-                   7000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/7000GeV_reduced_skim.root',
-                   8000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/8000GeV_reduced_skim.root',
-                   9000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/RSGTOJJ/9000GeV_reduced_skim.root'
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/9000GeV_reduced_skim.root',
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qg = {
-                  1000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/1000GeV_reduced_skim.root',
-                  2000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/2000GeV_reduced_skim.root',
-                  3000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/3000GeV_reduced_skim.root',
-                  4000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/4000GeV_reduced_skim.root',
-                  5000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/5000GeV_reduced_skim.root',
-                  6000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/6000GeV_reduced_skim.root',
-                  7000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/7000GeV_reduced_skim.root',
-                  8000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/8000GeV_reduced_skim.root',
-                  9000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/9000GeV_reduced_skim.root'
+1000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_1000/bStar1000GeV_20180620_085222/rootfile_list_bStar1000GeV_20180620_085222_0_reduced_skim.root',
+                  2000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_2000/bStar2000GeV_20180620_085247/rootfile_list_bStar2000GeV_20180620_085247_0_reduced_skim.root',
+                  3000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_3000/bStar3000GeV_20180620_085318/rootfile_list_bStar3000GeV_20180620_085318_0_reduced_skim.root',
+                  4000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_4000/bStar4000GeV_20180620_085349/rootfile_list_bStar4000GeV_20180620_085349_0_reduced_skim.root',
+                  5000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_5000/bStar5000GeV_20180620_085407/rootfile_list_bStar5000GeV_20180620_085407_0_reduced_skim.root',
+                  6000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_6000/bStar6000GeV_20180620_085454/rootfile_list_bStar6000GeV_20180620_085454_0_reduced_skim.root',
+                  7000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_7000/bStar7000GeV_20180620_085512/rootfile_list_bStar7000GeV_20180620_085512_0_reduced_skim.root',
+                  8000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_8000/bStar8000GeV_20180620_085527/rootfile_list_bStar8000GeV_20180620_085527_0_reduced_skim.root',
+                  9000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bStar2JJ/bStar_9000/bStar9000GeV_20180620_085559/rootfile_list_bStar9000GeV_20180620_085559_0_reduced_skim.root'
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
@@ -56,8 +55,8 @@ sampleNames_gg = {
                   }
 
 treeName = "rootTupleTree/tree"
-massRange  = {500: [75,0,1500],
-              750: [75,0,1500],
+massRange  = {#500: [75,0,1500],
+              #750: [75,0,1500],
               1000: [50,0,2000],
               2000: [50,0,5000],
               3000: [50,0,5000],
@@ -90,7 +89,7 @@ def progressbar(it, prefix="", size=60):
 def QuaInter(F):
   def Func(x):
      z = 0
-     mass = [750.0,1000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
+     mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
      for i in mass:
         term = 1.0
         for j in [y for y in mass if y!=i]:
@@ -111,7 +110,8 @@ def Do_Inter(Rate):
 
 def bookAndFill(mass,sample,flavour):
  
-    CSV_Value = [0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]   
+    CSV_Value = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693] 
+#[0.05,0.1,0.15,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5,0.55,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9,0.95,0.9693] 
 #    CSV_Value=[0.5,0.6,0.7,0.8,0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94,0.95,0.96]
     #CSV_Value=[0.82,0.84,0.86,0.88]#0.5,0.6,0.7,0.8,0.85,0.9,0.91,0.93,0.95,0.97]
 
@@ -124,27 +124,27 @@ def bookAndFill(mass,sample,flavour):
     for i in CSV_Value:
       prefix = str(mass)+"_"+str(int(i*1000)) 
       hDict[i]["h_mass_all"]    = rt.TH1F(prefix+"_mass_all",   prefix+"_mass_all",   massRange[mass][0],massRange[mass][1],massRange[mass][2])
-      hDict[i]["h_mass_passed"] = rt.TH1F(prefix+"_mass_passed",prefix+"_mass_passed",massRange[mass][0],massRange[mass][1],massRange[mass][2])
+      hDict[i]["h_mass_passed"] = rt.TH1F(prefix+"_mass_passed_deepCSV",prefix+"_mass_passed_deepCSV",massRange[mass][0],massRange[mass][1],massRange[mass][2])
       hDict[i]["h_mass_passed"].SetLineColor(rt.kOrange+8)
       hDict[i]["h_mass_passed"].SetMarkerColor(rt.kOrange+8)
       hDict[i]["h_mass_passed"].SetLineWidth(3)
       hDict[i]["h_mass_passed"].GetXaxis().SetTitle("Resonance Mass [GeV]")
 
 
-      hDict[i]["h_mass_passed_0b"] = rt.TH1F(prefix+"_mass_passed_0b",prefix+"_mass_passed_0b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
+      hDict[i]["h_mass_passed_0b"] = rt.TH1F(prefix+"_mass_passed_deepCSV_0b",prefix+"_mass_passed_deepCSV_0b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
       hDict[i]["h_mass_passed_0b"].SetMarkerSize(0.5)
   
-      hDict[i]["h_mass_passed_1b"] = rt.TH1F(prefix+"_mass_passed_1b",prefix+"_mass_passed_1b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
+      hDict[i]["h_mass_passed_1b"] = rt.TH1F(prefix+"_mass_passed_deepCSV_1b",prefix+"_mass_passed_deepCSV_1b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
       hDict[i]["h_mass_passed_1b"].SetLineColor(rt.kRed)
       hDict[i]["h_mass_passed_1b"].SetMarkerColor(rt.kRed)
       hDict[i]["h_mass_passed_1b"].SetMarkerSize(0.5)
     
-      hDict[i]["h_mass_passed_2b"] = rt.TH1F(prefix+"_mass_passed_2b",prefix+"_mass_passed_2b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
+      hDict[i]["h_mass_passed_2b"] = rt.TH1F(prefix+"_mass_passed_deepCSV_2b",prefix+"_mass_passed_deepCSV_2b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
       hDict[i]["h_mass_passed_2b"].SetLineColor(rt.kBlue)
       hDict[i]["h_mass_passed_2b"].SetMarkerColor(rt.kBlue)
       hDict[i]["h_mass_passed_2b"].SetMarkerSize(0.5)
 
-      hDict[i]["h_mass_passed_le1b"] = rt.TH1F(prefix+"_mass_passed_le1b",prefix+"_mass_passed_le1b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
+      hDict[i]["h_mass_passed_le1b"] = rt.TH1F(prefix+"_mass_passed_deepCSV_le1b",prefix+"_mass_passed_deepCSV_le1b",massRange[mass][0],massRange[mass][1],massRange[mass][2])
       hDict[i]["h_mass_passed_le1b"].SetLineColor(rt.kGreen)
       hDict[i]["h_mass_passed_le1b"].SetMarkerColor(rt.kGreen)
       hDict[i]["h_mass_passed_le1b"].SetMarkerSize(0.5)
@@ -182,9 +182,9 @@ def bookAndFill(mass,sample,flavour):
                 abs(tchain.etaWJ_j2)<2.5         and
 
                 tchain.pTWJ_j1>60                and
-                tchain.pTWJ_j1<6500              and
+                #tchain.pTWJ_j1<6500              and
                 tchain.pTWJ_j2>30                and
-                tchain.pTWJ_j2<6500              and
+                #tchain.pTWJ_j2<6500              and
 
                 #tchain.mjj > 1246                and
                 #tchain.mjj < 14000               and
@@ -196,9 +196,9 @@ def bookAndFill(mass,sample,flavour):
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
            NBjet=0
- 	   if tchain.jetCSVAK4_j1>i:
+ 	   if tchain.jetDeepCSVAK4_j1>i:
 	      NBjet = NBjet + 1
-           if tchain.jetCSVAK4_j2>i:
+           if tchain.jetDeepCSVAK4_j2>i:
               NBjet = NBjet + 1
 	
            if NBjet == 0:
@@ -239,7 +239,7 @@ if __name__ == '__main__':
     print "signal model    :",model
     ###################################################################
 
-    CSV_Value = [0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
+    CSV_Value = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693]
 
     # book histos and graphs
     mDict = {}
@@ -264,7 +264,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec13_ForScan'
+    outFolder = "signalHistos_"+flavour+'_Jun12_ForScan_deep'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)

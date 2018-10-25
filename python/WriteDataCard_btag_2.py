@@ -172,16 +172,16 @@ def writeDataCard(box,model,txtfileName,bkgs,paramNames,w,penalty,fixed,shapes=[
                 processes = ["%s_%s"%(box,sig) for sig in model.split('p')]
                 if '2015' in box:
                         lumiErrs = [1.027 for sig in model.split('p')]
-                elif '2016' in box or 'Dec' in box:
-                        lumiErrs = [1.062 for sig in model.split('p')]                  
+                elif '2017' in box or '2016' in box or 'Dec' in box:
+                        lumiErrs = [1. for sig in model.split('p')]                  
 		btagErrs = [1.031 for sig in model.split('p')]
         else:
                 rates = [w.data("%s_%s"%(box,model)).sumEntries()]
                 processes = ["%s_%s"%(box,model)]
                 if '2015' in box:
                         lumiErrs = [1.027]
-                elif '2016' in box or 'Dec' in box:
-                        lumiErrs = [1.062] 
+                elif '2017' in box or '2016' in box or 'Dec' in box:
+                        lumiErrs = [1.] 
 		btagErrs = [1.031]          
         rates.extend([w.var('Ntot_%s_%s'%(bkg,box)).getVal() for bkg in bkgs])
         processes.extend(["%s_%s"%(box,bkg) for bkg in bkgs])
@@ -272,23 +272,23 @@ def writeDataCardMC(box,model,txtfileName,bkgs,paramNames,w):
                 processes = ["%s_%s"%(box,sig) for sig in model.split('p')]
                 if '2015' in box:
                         lumiErrs = [1.027 for sig in model.split('p')]
-                elif '2016' in box or 'Dec' in box:
-                        lumiErrs = [1.062 for sig in model.split('p')]   
+                elif '2017' in box or '2016' in box or 'Dec' in box:
+                        lumiErrs = [1. for sig in model.split('p')]   
 		btagErrs = [1.031 for sig in model.split('p')]
         else:
                 rates = [w.data("%s_%s"%(box,model)).sumEntries()]
                 processes = ["%s_%s"%(box,model)]
                 if '2015' in box:
                         lumiErrs = [1.027]
-                elif '2016' in box or 'Dec' in box:
-                        lumiErrs = [1.062]
+                elif '2017' in box or '2016' in box or 'Dec' in box:
+                        lumiErrs = [1.]
 		btagErrs = [1.031]
         rates.extend([w.var('Ntot_%s_%s'%(bkg,box)).getVal() for bkg in bkgs])
         processes.extend(["%s_%s"%(box,bkg) for bkg in bkgs])
         if '2015' in box:
                 lumiErrs.extend([1.027 for bkg in bkgs])
-        elif '2016' in box:
-                lumiErrs.extend([1.062 for bkg in bkgs])
+        elif '2017' in box or '2016' in box:
+                lumiErrs.extend([1. for bkg in bkgs])
 	btagErrs.extend([1.031 for bkg in bkgs])
         divider = "------------------------------------------------------------\n"
         datacard = "imax 1 number of channels\n" + \
@@ -386,10 +386,14 @@ if __name__ == '__main__':
                   help="Output directory to store cards")
     parser.add_option('-l','--lumi',dest="lumi", default=1.,type="float",
                   help="integrated luminosity in pb^-1")
+    parser.add_option('--btagUp',dest="btagUpFile", default=None,type="string",
+                  help="btag Up file")
     parser.add_option('--jesUp',dest="jesUpFile", default=None,type="string",
                   help="jes Up file")
     parser.add_option('--jerUp',dest="jerUpFile", default=None,type="string",
                   help="jer Up file")
+    parser.add_option('--btagDown',dest="btagDownFile", default=None,type="string",
+                  help="btag Down file")
     parser.add_option('--jesDown',dest="jesDownFile", default=None,type="string",
                   help="jes Down file")
     parser.add_option('--jerDown',dest="jerDownFile", default=None,type="string",
@@ -490,8 +494,8 @@ if __name__ == '__main__':
         d = signalFile.Get(name)
         if isinstance(d, rt.TH1):
             #d.SetDirectory(rt.gROOT)
-	  #  print name 
-	  #  print 'h_%s_%i'%(model,massPoint)
+	    #print name 
+	    #print 'h_%s_%i'%(model,massPoint)
 	  #  print
             if name=='h_%s_%i'%(model,massPoint):
                 print "====>>> Before: ", signalXsec,lumi,d.Integral()
@@ -642,6 +646,11 @@ if __name__ == '__main__':
             shapes.append('jer')
             shapeFiles['jerUp'] = options.jerUpFile
             shapeFiles['jerDown'] = options.jerDownFile
+        if options.btagUpFile is not None or options.btagDownFile is not None:
+            shapes.append('btag')
+            shapeFiles['btagUp'] = options.btagUpFile
+            shapeFiles['btagDown'] = options.btagDownFile
+
 
     # JES and JER uncertainties
     hSigTh1x = signalHistos[0]
@@ -713,6 +722,5 @@ if __name__ == '__main__':
     else:
         writeDataCard(box,model,options.outDir+"/"+outFile.replace(".root",".txt"),bkgs,paramNames,w,options.penalty,options.fixed,shapes=shapes,multi=options.multi)
     w.Write()
-    print 'adfafasdfadsfasdfaefaswedwer'
     w.Print('v')
     #os.system("cat %s"%options.outDir+"/"+outFile.replace(".root",".txt"))
