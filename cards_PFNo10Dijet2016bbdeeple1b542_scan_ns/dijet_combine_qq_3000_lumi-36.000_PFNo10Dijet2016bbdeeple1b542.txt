@@ -1,0 +1,21 @@
+imax 1 number of channels
+jmax 1 number of processes minus 1
+kmax * number of nuisance parameters
+------------------------------------------------------------
+observation	242337.000
+------------------------------------------------------------
+shapes * * cards_PFNo10Dijet2016bbdeeple1b542_scan_ns/dijet_combine_qq_3000_lumi-36.000_PFNo10Dijet2016bbdeeple1b542.root wPFNo10Dijet2016bbdeeple1b542:$PROCESS wPFNo10Dijet2016bbdeeple1b542:$PROCESS_$SYSTEMATIC
+------------------------------------------------------------
+bin	PFNo10Dijet2016bbdeeple1b542	PFNo10Dijet2016bbdeeple1b542
+process	PFNo10Dijet2016bbdeeple1b542_qq	PFNo10Dijet2016bbdeeple1b542_bkg
+process	0	1
+rate	3.754	242336.996
+------------------------------------------------------------
+lumi	lnN	1.000	1.000
+btag	lnN	1.031	1.000
+jes	shape		1.0	-
+jer	shape		1.0	-
+p1_PFNo10Dijet2016bbdeeple1b542	flatParam
+p2_PFNo10Dijet2016bbdeeple1b542	flatParam
+p3_PFNo10Dijet2016bbdeeple1b542	flatParam
+PFNo10Dijet2016bbdeeple1b542_bkg_norm	flatParam

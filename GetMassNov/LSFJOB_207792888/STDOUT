@@ -1,0 +1,13 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/207792888> on <b6d9a8f295.cern.ch>
+
+TFile::Init:0: RuntimeWarning: file /eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Nov/RunIINov_20181119_074249/rootfile_list_RunIINov_20181119_074249_87_reduced_skim.root probably not closed, trying to recover
+Info in <TFile::Recover>: /eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Nov/RunIINov_20181119_074249/rootfile_list_RunIINov_20181119_074249_87_reduced_skim.root, recovered key TTree:tree at address 607114027
+TFile::Init:0: RuntimeWarning: successfully recovered 1 keys
+Error in <TChain::LoadTree>: Cannot find tree with name rootTupleTree/tree in file /eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Nov/RunIINov_20181119_074249/rootfile_list_RunIINov_20181119_074249_87_reduced_skim.root
+
+Job finished at Wed Nov 21 09:36:03 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 6:39:59 KSI2K hours (23999 KSI2K seconds)
+                 This process corresponds to     : 25:59:58 HS06  hours (93598 HS06  seconds)

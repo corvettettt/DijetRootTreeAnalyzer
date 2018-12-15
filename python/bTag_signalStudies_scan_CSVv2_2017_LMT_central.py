@@ -17,7 +17,7 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qg = {
-500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg/500GeV_reduced_skim.root',
+500: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg/500GeV_reduced_skim.root',
 1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg/1000GeV_reduced_skim.root',
 2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg/2000GeV_reduced_skim.root',
 3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg/3000GeV_reduced_skim.root',
@@ -31,15 +31,7 @@ sampleNames_qg = {
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_1000.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_2000.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_3000.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_4000.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_5000.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_6000.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_7000.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_8000.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_9000.root',
+
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
@@ -172,16 +164,6 @@ def bookAndFill(mass,sample,flavour):
     for i in progressbar(range(nEntries), "Mass "+str(mass)+": ", 40):
         tchain.GetEntry(i)
 
-
-        #select flavour
-        if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
-            continue
-        elif (flavour == "cc" and (tchain.jetHflavour_j1 != 4 or tchain.jetHflavour_j2 != 4)):
-            continue
-        elif (flavour == "qq" and (tchain.jetHflavour_j1 == 4 or tchain.jetHflavour_j1 == 5 or tchain.jetHflavour_j2 == 4 or tchain.jetHflavour_j2 == 5  )):
-            continue
-        elif (flavour == "bg" and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5  )):
-            continue
 	for i,j in CSV_Value.items():
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
         
@@ -280,7 +262,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Oct_ForScan_CSVv2_central'
+    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_CSVv2_central'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)

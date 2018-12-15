@@ -1,0 +1,1 @@
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_F/Run2017F_20180629_120646/rootfile_JetHT_2017F-17Nov2017-v1_Run2017F_20180629_120646_35_reduced_skim.root

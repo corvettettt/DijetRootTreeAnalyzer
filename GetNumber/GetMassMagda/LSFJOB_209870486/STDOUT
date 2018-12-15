@@ -1,0 +1,13 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/209870486> on <b6cceef42fd3.cern.ch>
+
+Traceback (most recent call last):
+  File "GetMass.py", line 82, in <module>
+    tchain.GetEntry(i)
+KeyboardInterrupt
+
+Job finished at Tue Dec 11 05:54:36 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:24 KSI2K hours (84 KSI2K seconds)
+                 This process corresponds to     : 0:05:28 HS06  hours (328 HS06  seconds)

@@ -10,7 +10,7 @@
 #include <TRandom3.h>
 #include <TLorentzVector.h>
 #include "IDTypes.h"
-#include "rootNtupleClass.h"
+#include "../include/rootNtupleClass.h"
 
 class Collection;
 typedef boost::shared_ptr<Collection> CollectionPtr;

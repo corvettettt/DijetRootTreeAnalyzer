@@ -1,0 +1,11 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/208806987> on <lxbrf61c08.cern.ch>
+
+Error in <TROOT::WriteTObject>: The current directory (PyROOT) is not associated with a file. The object (DeltaEta) has not been written.
+Error in <TROOT::WriteTObject>: The current directory (PyROOT) is not associated with a file. The object (eta) has not been written.
+
+Job finished at Fri Nov 30 20:44:10 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 3:02:47 KSI2K hours (10967 KSI2K seconds)
+                 This process corresponds to     : 11:52:51 HS06  hours (42771 HS06  seconds)

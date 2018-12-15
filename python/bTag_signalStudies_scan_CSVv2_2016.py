@@ -17,32 +17,30 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qq = {
-#1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/1000GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/test_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2QQ/9000GeV_reduced_skim.root',
-                  }
+500: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_500GeV_reduced_skim.root',
+1000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_1000GeV_reduced_skim.root',
+2000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_2000GeV_reduced_skim.root',
+3000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_3000GeV_reduced_skim.root',
+4000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_4000GeV_reduced_skim.root',
+5000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_5000GeV_reduced_skim.root',
+6000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_6000GeV_reduced_skim.root',
+7000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_7000GeV_reduced_skim.root',
+8000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_8000GeV_reduced_skim.root',
+9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_9000GeV_reduced_skim.root',
 
-#CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
-sampleNames_qg = { 
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_1000_20180701_054551_0_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_2000_20180701_054603_0_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_3000_20180701_054616_0_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_4000_20180701_054628_0_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_5000_20180701_054641_0_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_6000_20180701_054653_0_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_7000_20180701_054706_0_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_8000_20180701_054718_0_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/Bstar2GQ/rootfile_list_Bstar2GQ_9000_20180701_054731_0_reduced_skim.root',
+                 }
 
-                  }
-
+sampleNames_qg = {
+1000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_1000GeV_reduced_skim.root',
+2000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_2000GeV_reduced_skim.root',
+3000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_3000GeV_reduced_skim.root',
+4000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_4000GeV_reduced_skim.root',
+5000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_5000GeV_reduced_skim.root',
+6000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_6000GeV_reduced_skim.root',
+7000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_7000GeV_reduced_skim.root',
+8000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_8000GeV_reduced_skim.root',
+9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_9000GeV_reduced_skim.root',
+                 }
 
 CSV_Value = [0.1,0.15,0.2219,0.3,0.35,0.4,0.45,0.5, 0.5426,0.6, 0.6324,0.7,0.75,0.8, 0.8484, 0.8958, 0.9535]
 
@@ -116,7 +114,7 @@ def Do_Inter(Rate):
 def bookAndFill(mass,sample,flavour):
  
 #[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.5803,0.60,0.65,0.70,0.75,0.8,0.85,0.8838,0.9,0.935,0.95,0.9693]#[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
-#    CSV_Value=[0.5,0.6,0.7,0.8,0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94,0.95,0.96]
+#    nnCSV_Value=[0.5,0.6,0.7,0.8,0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94,0.95,0.96]
     #CSV_Value=[0.82,0.84,0.86,0.88]#0.5,0.6,0.7,0.8,0.85,0.9,0.91,0.93,0.95,0.97]
 
     #book histos
@@ -168,17 +166,11 @@ def bookAndFill(mass,sample,flavour):
         tchain.GetEntry(i)
 
 
-        #select flavour
-        if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
-            continue
-        elif (flavour == "cc" and (tchain.jetHflavour_j1 != 4 or tchain.jetHflavour_j2 != 4)):
-            continue
-        elif (flavour == "qq" and (tchain.jetHflavour_j1 == 4 or tchain.jetHflavour_j1 == 5 or tchain.jetHflavour_j2 == 4 or tchain.jetHflavour_j2 == 5  )):
-            continue
-        elif (flavour == "bg" and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5  )):
-            continue
 	for i in CSV_Value:
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
+
+           if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
+             continue
         
         #implement analysis
            if not (abs(tchain.deltaETAjj)<1.3       and
@@ -243,6 +235,8 @@ if __name__ == '__main__':
     print "signal model    :",model
     ###################################################################
 
+    if model =='qq':
+      massRange[500]= [75,0,1500]
 
     # book histos and graphs
     mDict = {}
@@ -267,7 +261,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Oct_For2016Scan_CSVv2_2'
+    outFolder = "signalHistos_"+flavour+'_Dec_For2016Scan_CSVv2'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)

@@ -1,0 +1,18 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/186475087> on <b6857da638.cern.ch>
+
+Traceback (most recent call last):
+  File "GetROC.py", line 1, in <module>
+    from ROOT import *
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-odfocd7/lib/ROOT.py", line 258, in <module>
+    _root.gPad         = _ExpandMacroFunction( "TVirtualPad",  "Pad" )
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-odfocd7/lib/ROOT.py", line 238, in __init__
+    c = _root.MakeRootClass( klass )
+KeyboardInterrupt
+mv: cannot stat `/tmp/ROC_2017_output_56.root': No such file or directory
+
+Job finished at Wed Aug  8 10:25:10 CEST 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:05 KSI2K hours (5 KSI2K seconds)
+                 This process corresponds to     : 0:00:20 HS06  hours (20 HS06  seconds)

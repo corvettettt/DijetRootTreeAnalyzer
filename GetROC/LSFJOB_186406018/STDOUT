@@ -1,0 +1,9 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/186406018> on <b6e4ad01de.cern.ch>
+
+
+Job finished at Wed Aug  8 03:25:53 CEST 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 6:06:55 KSI2K hours (22015 KSI2K seconds)
+                 This process corresponds to     : 23:51:01 HS06  hours (85861 HS06  seconds)

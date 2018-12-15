@@ -1,0 +1,8 @@
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017B-17Nov2017-v1_1_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017C-17Nov2017-v1_11_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017C-17Nov2017-v1_3_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017D-17Nov2017-v1_3_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017E-17Nov2017-v1_13_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017E-17Nov2017-v1_8_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017F-17Nov2017-v1_18_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/magda/reduced_trees_JetHT_17Nov2017-v1_JEC2017_deltaeta_1p1/JetHT_Run2017F-17Nov2017-v1_8_reduced_skim.root

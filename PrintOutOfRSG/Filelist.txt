@@ -1,0 +1,9 @@
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_1000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_3000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_4000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_5000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_6000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_7000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_8000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_9000.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq/RSGravitonToQuarkQuark_kMpl01_M_2000.root

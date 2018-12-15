@@ -1,4 +1,4 @@
-#include "Collection.h"
+#include "../include/Collection.h"
 
 //------------------------------------------------------------------------------------------
 // Constructors and destructors

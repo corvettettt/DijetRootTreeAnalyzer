@@ -1,8 +1,8 @@
 #include <algorithm>
 #include <cmath>
 
-#include "Electron.h"
-#include "IDTypes.h"
+#include "../include/Electron.h"
+#include "../include/IDTypes.h"
 
 bool Electron::PassUserID (ID id, bool verbose){ 
   if      ( id == HEEP          ) return PassUserID_HEEPv4p1       (verbose);

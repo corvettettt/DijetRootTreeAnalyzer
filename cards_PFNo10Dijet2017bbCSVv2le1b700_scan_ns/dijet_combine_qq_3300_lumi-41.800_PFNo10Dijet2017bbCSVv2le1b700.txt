@@ -1,0 +1,21 @@
+imax 1 number of channels
+jmax 1 number of processes minus 1
+kmax * number of nuisance parameters
+------------------------------------------------------------
+observation	593310.000
+------------------------------------------------------------
+shapes * * cards_PFNo10Dijet2017bbCSVv2le1b700_scan_ns/dijet_combine_qq_3300_lumi-41.800_PFNo10Dijet2017bbCSVv2le1b700.root wPFNo10Dijet2017bbCSVv2le1b700:$PROCESS wPFNo10Dijet2017bbCSVv2le1b700:$PROCESS_$SYSTEMATIC
+------------------------------------------------------------
+bin	PFNo10Dijet2017bbCSVv2le1b700	PFNo10Dijet2017bbCSVv2le1b700
+process	PFNo10Dijet2017bbCSVv2le1b700_qq	PFNo10Dijet2017bbCSVv2le1b700_bkg
+process	0	1
+rate	22.547	593310.110
+------------------------------------------------------------
+lumi	lnN	1.000	1.000
+btag	lnN	1.031	1.000
+jes	shape		1.0	-
+jer	shape		1.0	-
+p1_PFNo10Dijet2017bbCSVv2le1b700	flatParam
+p2_PFNo10Dijet2017bbCSVv2le1b700	flatParam
+p3_PFNo10Dijet2017bbCSVv2le1b700	flatParam
+PFNo10Dijet2017bbCSVv2le1b700_bkg_norm	flatParam

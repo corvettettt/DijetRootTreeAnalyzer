@@ -1,0 +1,10 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/186406140> on <lxbrf53c08.cern.ch>
+
+Error in <TChain::AddFile>: No file name; no files connected
+
+Job finished at Wed Aug  8 01:00:36 CEST 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:04 KSI2K hours (4 KSI2K seconds)
+                 This process corresponds to     : 0:00:18 HS06  hours (18 HS06  seconds)

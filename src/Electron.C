@@ -1,4 +1,4 @@
-#include "Electron.h"
+#include "../include/Electron.h"
 #include "Object.h"
 #include "IDTypes.h"
 

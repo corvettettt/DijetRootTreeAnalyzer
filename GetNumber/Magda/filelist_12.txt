@@ -1,0 +1,3 @@
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Magda/F/MagdaF_20181127_221638/rootfile_list_1_MagdaF_20181127_221638_7_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Magda/F/MagdaF_20181127_221638/rootfile_list_1_MagdaF_20181127_221638_8_reduced_skim.root
+/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/2017RunII_Magda/F/MagdaF_20181127_221638/rootfile_list_1_MagdaF_20181127_221638_9_reduced_skim.root

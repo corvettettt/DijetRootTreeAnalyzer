@@ -7,7 +7,7 @@ import glob
 
 
 #to import samples names
-from bTag_signalStudies_scan_2017 import *
+from bTag_signalStudies_scan_deep_2017 import *
 
 usage = """usage: python python/bTag_extractShapes.py -e none -m qq"""
 
@@ -35,7 +35,17 @@ def makeShape(mass, sample, model):
         #select bb events at gen level
         if (model == 'qq' and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
             continue
-        if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
+        #if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
+            continue
+
+        if not (abs(tchain.deltaETAjj)<1.1       and
+                abs(tchain.etaWJ_j1)<2.5         and
+                abs(tchain.etaWJ_j2)<2.5         and
+
+                tchain.pTWJ_j1>60                and
+                tchain.pTWJ_j2>30                and
+
+                tchain.PassJSON):
             continue
 
 	Mjj = {}
@@ -71,9 +81,9 @@ def makeShape(mass, sample, model):
 
 
 	Mjj['Nominal'] = tchain.mjj
-	Mjj['JER'] = tchain.mjj #* (1.0 + 0.1 * recoFunc.Eval(tchain.mjj)*ran)
-	Mjj['JESUP'] = tchain.mjj #* (1.0 + jesUp)# * (1.0 + smearFunc.Eval(Mjj) * ran)
-	Mjj['JESDOWN'] = tchain.mjj #* (1.0 + jesDown)# * (1.0 + smearFunc.Eval(Mjj) * ran)
+	Mjj['JER'] = tchain.mjj * (1.0 + 0.1 * recoFunc.Eval(tchain.mjj)*ran)
+	Mjj['JESUP'] = tchain.mjj * (1.0 + jesUp)# * (1.0 + smearFunc.Eval(Mjj) * ran)
+	Mjj['JESDOWN'] = tchain.mjj * (1.0 + jesDown)# * (1.0 + smearFunc.Eval(Mjj) * ran)
 
 	for i in LIST:
           myHisto[i].Fill(Mjj[i]/mass)
@@ -124,8 +134,6 @@ if __name__ == '__main__':
 
     LIST=['Nominal','JER','JESUP','JESDOWN'] 
     CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693]
-#[0.1,0.15,0.2,0.3,0.35,0.45,0.5,0.5803,0.65,0.75,0.8,0.8838,0.9,0.9693]
-    #CSV_Value=[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.5803,0.60,0.65,0.70,0.75,0.8,0.85,0.8838,0.9,0.935,0.95,0.9693]#[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
     histo={}
 
     if (model == "qq"):

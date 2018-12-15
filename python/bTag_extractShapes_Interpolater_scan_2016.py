@@ -7,7 +7,7 @@ import glob
 
 
 #to import samples names
-from bTag_signalStudies_scan_2016 import *
+from bTag_signalStudies_scan_CSVv2_2016 import *
 
 usage = """usage: python python/bTag_extractShapes.py -e none -m qq"""
 
@@ -35,9 +35,18 @@ def makeShape(mass, sample, model):
         #select bb events at gen level
         if (model == 'qq' and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
             continue
-        if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
+        #if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
             continue
 
+        if not (abs(tchain.deltaETAjj)<1.3       and
+                abs(tchain.etaWJ_j1)<2.5         and
+                abs(tchain.etaWJ_j2)<2.5         and
+
+                tchain.pTWJ_j1>60                and
+                tchain.pTWJ_j2>30                and
+
+                tchain.PassJSON):
+            continue
 	Mjj = {}
 
 	hltP0=2.441
@@ -71,9 +80,9 @@ def makeShape(mass, sample, model):
 
 
 	Mjj['Nominal'] = tchain.mjj
-	Mjj['JER'] = tchain.mjj #* (1.0 + 0.1 * recoFunc.Eval(tchain.mjj)*ran)
-	Mjj['JESUP'] = tchain.mjj #* (1.0 + jesUp)# * (1.0 + smearFunc.Eval(Mjj) * ran)
-	Mjj['JESDOWN'] = tchain.mjj #* (1.0 + jesDown)# * (1.0 + smearFunc.Eval(Mjj) * ran)
+	Mjj['JER'] = tchain.mjj * (1.0 + 0.1 * recoFunc.Eval(tchain.mjj)*ran)
+	Mjj['JESUP'] = tchain.mjj * (1.0 + jesUp)# * (1.0 + smearFunc.Eval(Mjj) * ran)
+	Mjj['JESDOWN'] = tchain.mjj * (1.0 + jesDown)# * (1.0 + smearFunc.Eval(Mjj) * ran)
 
 	for i in LIST:
           myHisto[i].Fill(Mjj[i]/mass)

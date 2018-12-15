@@ -1,0 +1,14 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/207914555> on <b68685ed6c.cern.ch>
+
+Traceback (most recent call last):
+  File "GetMass.py", line 121, in <module>
+    h_CSV_mjjle1[j].Fill(tchain.mjj)
+KeyboardInterrupt
+mv: cannot stat `/tmp/output_3.root': No such file or directory
+
+Job finished at Thu Nov 22 10:50:34 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 8:24:03 KSI2K hours (30243 KSI2K seconds)
+                 This process corresponds to     : 32:45:48 HS06  hours (117948 HS06  seconds)

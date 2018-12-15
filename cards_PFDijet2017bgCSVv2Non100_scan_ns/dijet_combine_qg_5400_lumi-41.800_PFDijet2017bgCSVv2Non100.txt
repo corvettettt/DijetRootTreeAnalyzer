@@ -1,0 +1,19 @@
+imax 1 number of channels
+jmax 1 number of processes minus 1
+kmax * number of nuisance parameters
+------------------------------------------------------------
+observation	6926344.000
+------------------------------------------------------------
+shapes * * cards_PFDijet2017bgCSVv2Non100_scan_ns/dijet_combine_qg_5400_lumi-41.800_PFDijet2017bgCSVv2Non100.root wPFDijet2017bgCSVv2Non100:$PROCESS wPFDijet2017bgCSVv2Non100:$PROCESS_$SYSTEMATIC
+------------------------------------------------------------
+bin	PFDijet2017bgCSVv2Non100	PFDijet2017bgCSVv2Non100
+process	PFDijet2017bgCSVv2Non100_qg	PFDijet2017bgCSVv2Non100_bkg
+process	0	1
+rate	40.124	6926346.301
+------------------------------------------------------------
+lumi	lnN	1.000	1.000
+btag	lnN	1.031	1.000
+p1_PFDijet2017bgCSVv2Non100	flatParam
+p2_PFDijet2017bgCSVv2Non100	flatParam
+p3_PFDijet2017bgCSVv2Non100	flatParam
+PFDijet2017bgCSVv2Non100_bkg_norm	flatParam

@@ -1,0 +1,11 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/186701457> on <b677aab3a3.cern.ch>
+
+Error in <TFile::TFile>: file /eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RunII2016H/Run2016H_20180701_054443/rootfile_JetHT_2017H_Run2016H_20180701_054443_35_reduced_skim.root does not exist
+Error in <TFile::TFile>: file /eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RunII2016H/Run2016H_20180701_054443/rootfile_JetHT_2017H_Run2016H_20180701_054443_36_reduced_skim.root does not exist
+
+Job finished at Wed Aug  8 23:06:30 CEST 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:12 KSI2K hours (12 KSI2K seconds)
+                 This process corresponds to     : 0:00:49 HS06  hours (49 HS06  seconds)

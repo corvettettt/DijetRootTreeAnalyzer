@@ -1,0 +1,14 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/zhixing/186475083> on <b6c22ef8bc54.cern.ch>
+
+Traceback (most recent call last):
+  File "GetROC.py", line 112, in <module>
+    if L[j]<tchain.mjj<L[j+1]:
+KeyboardInterrupt
+mv: cannot stat `/tmp/ROC_2017_output_32.root': No such file or directory
+
+Job finished at Wed Aug  8 10:25:10 CEST 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:29 KSI2K hours (29 KSI2K seconds)
+                 This process corresponds to     : 0:01:55 HS06  hours (115 HS06  seconds)

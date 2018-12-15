@@ -1,0 +1,19 @@
+imax 1 number of channels
+jmax 1 number of processes minus 1
+kmax * number of nuisance parameters
+------------------------------------------------------------
+observation	105205.000
+------------------------------------------------------------
+shapes * * cards_PFinDijet2017bgdeeple1b494_scan_ns/dijet_combine_qg_4600_lumi-41.800_PFinDijet2017bgdeeple1b494.root wPFinDijet2017bgdeeple1b494:$PROCESS wPFinDijet2017bgdeeple1b494:$PROCESS_$SYSTEMATIC
+------------------------------------------------------------
+bin	PFinDijet2017bgdeeple1b494	PFinDijet2017bgdeeple1b494
+process	PFinDijet2017bgdeeple1b494_qg	PFinDijet2017bgdeeple1b494_bkg
+process	0	1
+rate	1.745	105204.950
+------------------------------------------------------------
+lumi	lnN	1.000	1.000
+btag	lnN	1.031	1.000
+p1_PFinDijet2017bgdeeple1b494	flatParam
+p2_PFinDijet2017bgdeeple1b494	flatParam
+p3_PFinDijet2017bgdeeple1b494	flatParam
+PFinDijet2017bgdeeple1b494_bkg_norm	flatParam
