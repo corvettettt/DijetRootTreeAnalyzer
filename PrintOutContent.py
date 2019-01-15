@@ -43,8 +43,19 @@ sampleNames_qq = {
 9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_9000GeV_reduced_skim.root',
 
                   }
+
+QCD = {
+'200-300':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD200to300_reduced_skim.root',
+'300-500':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD300to500_reduced_skim.root',
+'500-700':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD500to700_reduced_skim.root',
+'700-1000':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD700to1000_reduced_skim.root',
+'1000-1500':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD1000to1500_reduced_skim.root',
+'1500-2000':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD1500to2000_reduced_skim.root',
+'2000-Inf':'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/QCD/QCD2000toInf_reduced_skim.root',
+
+}
 treeName = "rootTupleTree/tree"
-sample = sampleNames_qq
+sample = QCD
 
 tchain = TChain(treeName)
 for i,j in sample.items():
