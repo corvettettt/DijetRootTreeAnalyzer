@@ -19,82 +19,82 @@ eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qg={}
 sampleNames_qg['central'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
                   }
 
 sampleNames_qg['down'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 
 sampleNames_qg['up'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {}
 sampleNames_qq['central'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 sampleNames_qq['down'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 
 sampleNames_qq['up'] = {
-500:
-1000:
-2000:
-3000:
-4000:
-5000:
-6000:
-7000:
-8000:
-9000:
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 
 CSV_Value = {
@@ -118,6 +118,8 @@ massRange  = {500: [75,0,1500],
               9000: [20,0,12000]
               }
 
+
+def bookAndFill(mass,sample,flavour):
     #book histos
     hDict={}
     for i,j in CSV_Value.items():
@@ -190,9 +192,9 @@ massRange  = {500: [75,0,1500],
 
 	   SFs = []
  	   if tchain.jetCSVAK4_j1>j:
-             SFs.append(getattr(tchain,'CSVv2SF_%s_j1'%i.low()))
+             SFs.append(getattr(tchain,'CSVv2SF_%s_j1'%i.lower()))
            if tchain.jetCSVAK4_j2>j:
-             SFs.append(getattr(tchain,'CSVv2SF_%s_j2'%i.low()))
+             SFs.append(getattr(tchain,'CSVv2SF_%s_j2'%i.lower()))
 		
            #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
            hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))

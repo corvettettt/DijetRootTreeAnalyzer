@@ -98,7 +98,7 @@ def bWeight(SFsForBTaggedJets, nBTags):
 ####################################################################
     if len(SFsForBTaggedJets) > 2:
       raise AttributeError("Only two leading jets are considered. Hence, the number of b-tagged jets cannot exceed 2")
-    if len(nBTags)>2:
+    if nBTags>2:
       raise AttributeError('Only two leading jets are considered. Hence, the number of b-tags cannot exceed 2')
     if nBTags> len(SFsForBTaggedJets):
       return 0
@@ -117,7 +117,7 @@ def bWeight(SFsForBTaggedJets, nBTags):
       for i in range(2):
         for j  in range(2):
           if (i+j)!= nBTags: continue
-          weight += pow(SF1,i)*pow(1-SF,1-i)*pow(SF2,j)*pow(1-SF2,1-j)
+          weight += pow(SF1,i)*pow(1-SF1,1-i)*pow(SF2,j)*pow(1-SF2,1-j)
     return weight
 
 def Do_Inter(Rate):
