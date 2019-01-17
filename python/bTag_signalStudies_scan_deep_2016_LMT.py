@@ -1,6 +1,7 @@
 import ROOT as rt
 import math as math
 import sys, os
+from bTag_signalStudies import *
 from optparse import OptionParser
 from rootTools import tdrstyle as setTDRStyle
 
@@ -16,27 +17,80 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 #eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGravitonToQuarkQuark_kMpl01_Spring16_20161201_145940/"
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
-sampleNames_qq = {
-                  }
+sampleNames_qq={}
+sampleNames_qq['central'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qq['up'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qq['down'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
 
-#CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
-sampleNames_qg = {
-                  }
 
-#CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
-sampleNames_gg = {
-    #              1000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/1000GeV_reduced_skim.root',
-    #              2000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/2000GeV_reduced_skim.root',
-    #              3000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/3000GeV_reduced_skim.root',
-    #              4000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/4000GeV_reduced_skim.root',
-    #              5000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/5000GeV_reduced_skim.root',
-    #              6000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/6000GeV_reduced_skim.root',
-    #              7000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/7000GeV_reduced_skim.root',
-    #              8000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/8000GeV_reduced_skim.root',
-    #              9000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/9000GeV_reduced_skim.root'
-                  }
+sampleNames_qg={} 
+sampleNames_qg['central'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qg['up'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qg['down'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
 
-#CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693]
 CSV_Value = {
    'L':0.2219,
    'M':0.6324,
@@ -57,47 +111,6 @@ massRange  = {500: [75,0,1500],
               8000: [20,0,12000],
               9000: [20,0,12000]
               }
-
-
-
-def progressbar(it, prefix="", size=60):
-    count = len(it)
-    def _show(_i):
-        x = int(size*_i/count)
-        sys.stdout.write("%s[%s%s] %i/%i\r" % (prefix, "#"*x, "."*(size-x), _i, count))
-        sys.stdout.flush()
-
-    _show(0)
-    for i, item in enumerate(it):
-        yield item
-        _show(i+1)
-    sys.stdout.write("\n")
-    sys.stdout.flush()
-
-
-
-def QuaInter(F):
-  def Func(x):
-     z = 0
-     mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
-     for i in mass:
-        term = 1.0
-        for j in [y for y in mass if y!=i]:
-           term = (float(x)-float(j))/(float(i)-float(j))*term
-        z=z+term*F.Eval(i)
-     return  z
-  return Func
-
-def Do_Inter(Rate):
-  mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
-  Inter = QuaInter (Rate)
-  Return_plot = rt.TGraphAsymmErrors()
-  num = -1
-  for M in range(1000,9000,100):
-     num=num+1
-     Return_plot.SetPoint(num,M,Inter(M))
-  return Return_plot
-
 def bookAndFill(mass,sample,flavour):
  
 #    CSV_Value = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693] 
@@ -154,15 +167,6 @@ def bookAndFill(mass,sample,flavour):
         tchain.GetEntry(i)
 
 
-        #select flavour
-        if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
-            continue
-        elif (flavour == "cc" and (tchain.jetHflavour_j1 != 4 or tchain.jetHflavour_j2 != 4)):
-            continue
-        elif (flavour == "qq" and (tchain.jetHflavour_j1 == 4 or tchain.jetHflavour_j1 == 5 or tchain.jetHflavour_j2 == 4 or tchain.jetHflavour_j2 == 5  )):
-            continue
-        elif (flavour == "bg" and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5  )):
-            continue
 	for i,j in CSV_Value.items():
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
         
@@ -182,37 +186,23 @@ def bookAndFill(mass,sample,flavour):
                 tchain.PassJSON):
             continue
 
-
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
-           NBjet=0
- 	   if tchain.jetDeepCSVAK4_j1>j:
-	      NBjet = NBjet + 1
+           SFs = []
+           if tchain.jetDeepCSVAK4_j1>j:
+             SFs.append(getattr(tchain,'DeepSF_%s_j1'%i.low()))
            if tchain.jetDeepCSVAK4_j2>j:
-              NBjet = NBjet + 1
+             SFs.append(getattr(tchain,'DeepSF_%s_j2'%i.low()))
 
-	   if i =='L' :
-	     weight = tchain.evtDeepBweight_l
-	   elif i == 'M':
-	     weight = tchain.evtDeepBweight_m
-	   elif i == 'T':
-	     weight = tchain.evtDeepBweight_t
-		
-           if NBjet == 0:
-              #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_0b"].Fill(weight)
-           if NBjet == 1:
-              #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_1b"].Fill(weight)
-           if NBjet == 2:
-              #hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_2b"].Fill(weight)
-	   if NBjet > 0:
-	      hDict[i]["h_mass_passed_le1b"].Fill(weight)
+           #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
+           hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))
 
+           hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,bWeight(SFs,1))
+
+           hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,bWeight(SFs,2))
+
+           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,1))
+           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,2))
 
     return hDict
 
@@ -228,13 +218,18 @@ if __name__ == '__main__':
                       help="Name of the signal flavour")
     parser.add_option('-m','--model',dest="model",type="string",default="qq",
                       help="Name of the signal model")
+    parser.add_option('-s','--su',dest='su',type = 'string',default='central',help='central/up/down')
     (options,args) = parser.parse_args()
     flavour = options.flavour
     model   = options.model
+    su = options.su
 
     print "selected flavour:",flavour
     print "signal model    :",model
     ###################################################################
+
+    if model =='qq':
+      massRange[500]= [75,0,1500]
 
 #    CSV_Value = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693]
 
@@ -244,11 +239,9 @@ if __name__ == '__main__':
 
     # loop over the MC samples
     if (model == "qq"):
-        sampleNames = sampleNames_qq
+        sampleNames = sampleNames_qq[su]
     elif (model == "qg"):
-        sampleNames = sampleNames_qg
-    elif (model == "gg"):
-        sampleNames = sampleNames_gg
+        sampleNames = sampleNames_qg[su]
     else:
         print "model unknown"
         exit
@@ -261,7 +254,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Deep_For2016Scan_deep'
+    outFolder = "signalHistos_"+flavour+'_Dec_For2016Scan_deep_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -326,7 +319,7 @@ if __name__ == '__main__':
 	num = hDict[i]["h_mass_passed_le1b"].GetSumOfWeights()
 	g_le1btag_rate[i].SetPoint(bin,mass,num/den)
       bin += 1       
-    for i,j in CSV_Value.items(): 
+    for i,j in CSV_Value.items():
       rootFile = rt.TFile(outFolder+"/"+outName+"_"+i+".root", 'recreate')
       for mass,hDict in sorted(mDict.iteritems()):
         # shape comparison 0 btag
@@ -349,38 +342,39 @@ if __name__ == '__main__':
 
         h1.Print(outFolder+"/shapes_"+str(mass)+"_"+flavour+"_"+i+".pdf")
 
+
         for n,h in hDict[i].items():
             h.Write()
 
-        g_an_acc[i].Write("g_an_acc")
-	g_0btag_rate_Q=Do_Inter(g_0btag_rate[i])
-        g_1btag_rate_Q=Do_Inter(g_1btag_rate[i])
-        g_2btag_rate_Q=Do_Inter(g_2btag_rate[i])
-	g_le1btag_rate_Q=Do_Inter(g_le1btag_rate[i])
+      g_an_acc[i].Write("g_an_acc")
+      g_0btag_rate_Q=Do_Inter(g_0btag_rate[i])
+      g_1btag_rate_Q=Do_Inter(g_1btag_rate[i])
+      g_2btag_rate_Q=Do_Inter(g_2btag_rate[i])
+      g_le1btag_rate_Q=Do_Inter(g_le1btag_rate[i])
 
 
 #        g_0btag_rate_Q.Write("g_0btag_rate")
-        g_0btag_rate_Q.SetLineWidth(2)
+      g_0btag_rate_Q.SetLineWidth(2)
 #        g_1btag_rate_Q.Write("g_1btag_rate")
-        g_1btag_rate_Q.SetMarkerColor(rt.kRed)
-        g_1btag_rate_Q.SetLineColor(rt.kRed)
-        g_1btag_rate_Q.SetLineWidth(2)
+      g_1btag_rate_Q.SetMarkerColor(rt.kRed)
+      g_1btag_rate_Q.SetLineColor(rt.kRed)
+      g_1btag_rate_Q.SetLineWidth(2)
 #        g_2btag_rate_Q.Write("g_2btag_rate")
-        g_2btag_rate_Q.SetMarkerColor(rt.kBlue)
-        g_2btag_rate_Q.SetLineColor(rt.kBlue)
-        g_2btag_rate_Q.SetLineWidth(2)
-        g_le1btag_rate_Q.SetMarkerColor(rt.kGreen)
-        g_le1btag_rate_Q.SetLineColor(rt.kGreen)
-        g_le1btag_rate_Q.SetLineWidth(2)
+      g_2btag_rate_Q.SetMarkerColor(rt.kBlue)
+      g_2btag_rate_Q.SetLineColor(rt.kBlue)
+      g_2btag_rate_Q.SetLineWidth(2)
+      g_le1btag_rate_Q.SetMarkerColor(rt.kGreen)
+      g_le1btag_rate_Q.SetLineColor(rt.kGreen)
+      g_le1btag_rate_Q.SetLineWidth(2)
 
-        g_0btag_rate_Q.Write("g_0btag_rate")
-        g_1btag_rate_Q.Write("g_1btag_rate")
-        g_2btag_rate_Q.Write("g_2btag_rate")
-        g_le1btag_rate_Q.Write("g_le1btag_rate")
+      g_0btag_rate_Q.Write("g_0btag_rate")
+      g_1btag_rate_Q.Write("g_1btag_rate")
+      g_2btag_rate_Q.Write("g_2btag_rate")
+      g_le1btag_rate_Q.Write("g_le1btag_rate")
 
-        g_0btag_weight[i].Write("g_0btag_weight")
-        g_1btag_weight[i].Write("g_1btag_weight")
-        g_2btag_weight[i].Write("g_2btag_weight")
+      g_0btag_weight[i].Write("g_0btag_weight")
+      g_1btag_weight[i].Write("g_1btag_weight")
+      g_2btag_weight[i].Write("g_2btag_weight")
 
       rootFile.Close()
 
