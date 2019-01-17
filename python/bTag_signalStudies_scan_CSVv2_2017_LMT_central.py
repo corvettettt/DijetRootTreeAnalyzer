@@ -17,7 +17,34 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 #eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGravitonToQuarkQuark_kMpl01_Spring16_20161201_145940/"
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
-sampleNames_qg = {
+sampleNames_qg={}
+sampleNames_qg['central'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                  }
+
+sampleNames_qg['down'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                  }
+
+sampleNames_qg['up'] = {
 500:
 1000:
 2000:
@@ -31,7 +58,20 @@ sampleNames_qg = {
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
-sampleNames_qq = {
+sampleNames_qq = {}
+sampleNames_qq['central'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                  }
+sampleNames_qq['down'] = {
 500:
 1000:
 2000:
@@ -44,6 +84,18 @@ sampleNames_qq = {
 9000:
                   }
 
+sampleNames_qq['up'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                  }
 
 CSV_Value = {
    'L':0.5803,
@@ -167,9 +219,13 @@ if __name__ == '__main__':
                       help="Name of the signal flavour")
     parser.add_option('-m','--model',dest="model",type="string",default="qq",
                       help="Name of the signal model")
+    parser.add_option('-s','--su',dest='su',type = 'string',default='central',help='central/up/down')
+
     (options,args) = parser.parse_args()
     flavour = options.flavour
     model   = options.model
+    su = options.su
+
 
     print "selected flavour:",flavour
     print "signal model    :",model
@@ -183,11 +239,9 @@ if __name__ == '__main__':
 
     # loop over the MC samples
     if (model == "qq"):
-        sampleNames = sampleNames_qq
+        sampleNames = sampleNames_qq[su]
     elif (model == "qg"):
-        sampleNames = sampleNames_qg
-    elif (model == "gg"):
-        sampleNames = sampleNames_gg
+        sampleNames = sampleNames_qg[su]
     else:
         print "model unknown"
         exit
@@ -197,7 +251,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_CSVv2_central'
+    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_CSVv2_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)

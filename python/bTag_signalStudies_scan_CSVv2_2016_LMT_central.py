@@ -17,32 +17,78 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 #eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGravitonToQuarkQuark_kMpl01_Spring16_20161201_145940/"
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
-sampleNames_qq = {
-500: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_500GeV_reduced_skim.root',
-1000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_1000GeV_reduced_skim.root',
-2000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_2000GeV_reduced_skim.root',
-3000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_3000GeV_reduced_skim.root',
-4000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_4000GeV_reduced_skim.root',
-5000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_5000GeV_reduced_skim.root',
-6000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_6000GeV_reduced_skim.root',
-7000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_7000GeV_reduced_skim.root',
-8000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_8000GeV_reduced_skim.root',
-9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_9000GeV_reduced_skim.root',
-
+sampleNames_qq= {}
+sampleNames_qq['central'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qq['up'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qq['down'] = {
+500:
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
                  }
 
-sampleNames_qg = {
-1000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_1000GeV_reduced_skim.root',
-2000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_2000GeV_reduced_skim.root',
-3000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_3000GeV_reduced_skim.root',
-4000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_4000GeV_reduced_skim.root',
-5000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_5000GeV_reduced_skim.root',
-6000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_6000GeV_reduced_skim.root',
-7000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_7000GeV_reduced_skim.root',
-8000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_8000GeV_reduced_skim.root',
-9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_Dec_central/bstar2qg_9000GeV_reduced_skim.root',
+sampleNames_qg = {}
+sampleNames_qg['central'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
                  }
-
+sampleNames_qg['down'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
+sampleNames_qg['up'] = {
+1000:
+2000:
+3000:
+4000:
+5000:
+6000:
+7000:
+8000:
+9000:
+                 }
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_gg = {
     #              1000 : '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/BstarToJJ/bstar/1000GeV_reduced_skim.root',
@@ -62,7 +108,6 @@ CSV_Value = {
    'M':0.8484,
    'T':0.9535
 }
-
 
 treeName = "rootTupleTree/tree"
 massRange  = {500: [75,0,1500],
@@ -188,9 +233,11 @@ if __name__ == '__main__':
                       help="Name of the signal flavour")
     parser.add_option('-m','--model',dest="model",type="string",default="qq",
                       help="Name of the signal model")
+    parser.add_option('-s','--su',dest='su',type = 'string',default='central',help='central/up/down')
     (options,args) = parser.parse_args()
     flavour = options.flavour
     model   = options.model
+    su = options.su
 
     print "selected flavour:",flavour
     print "signal model    :",model
@@ -207,11 +254,9 @@ if __name__ == '__main__':
 
     # loop over the MC samples
     if (model == "qq"):
-        sampleNames = sampleNames_qq
+        sampleNames = sampleNames_qq[su]
     elif (model == "qg"):
-        sampleNames = sampleNames_qg
-    elif (model == "gg"):
-        sampleNames = sampleNames_gg
+        sampleNames = sampleNames_qg[su]
     else:
         print "model unknown"
         exit
@@ -224,7 +269,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec_For2016Scan_CSVv2_central'
+    outFolder = "signalHistos_"+flavour+'_Dec_For2016Scan_CSVv2_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
