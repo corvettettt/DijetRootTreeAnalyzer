@@ -9,7 +9,7 @@ for n in ['CSVv2','deep']:
     if i == 'qg': 
      flavor = 'bg'
     for j in ['central','up','down']:
-     command += 'python python/bTag_signalStudies_scan_'+n+'_'+m+'_LMT_%s.py -f %s -m %s'%(j,flavor,i)+'\n'
+     command += 'python python/bTag_signalStudies_scan_'+n+'_'+m+'_LMT.py -f %s -m %s -s %s'%(flavor,i,j)+'\n'
      if j=='central':
       if i =='qq':
         cate = ['le1b','2b','Non']
