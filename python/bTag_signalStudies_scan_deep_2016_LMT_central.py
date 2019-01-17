@@ -1,6 +1,7 @@
 import ROOT as rt
 import math as math
 import sys, os
+from bTag_signalStudies import *
 from optparse import OptionParser
 from rootTools import tdrstyle as setTDRStyle
 
@@ -76,47 +77,6 @@ massRange  = {500: [75,0,1500],
               8000: [20,0,12000],
               9000: [20,0,12000]
               }
-
-
-
-def progressbar(it, prefix="", size=60):
-    count = len(it)
-    def _show(_i):
-        x = int(size*_i/count)
-        sys.stdout.write("%s[%s%s] %i/%i\r" % (prefix, "#"*x, "."*(size-x), _i, count))
-        sys.stdout.flush()
-
-    _show(0)
-    for i, item in enumerate(it):
-        yield item
-        _show(i+1)
-    sys.stdout.write("\n")
-    sys.stdout.flush()
-
-
-
-def QuaInter(F):
-  def Func(x):
-     z = 0
-     mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
-     for i in mass:
-        term = 1.0
-        for j in [y for y in mass if y!=i]:
-           term = (float(x)-float(j))/(float(i)-float(j))*term
-        z=z+term*F.Eval(i)
-     return  z
-  return Func
-
-def Do_Inter(Rate):
-  mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
-  Inter = QuaInter (Rate)
-  Return_plot = rt.TGraphAsymmErrors()
-  num = -1
-  for M in range(1000,9000,100):
-     num=num+1
-     Return_plot.SetPoint(num,M,Inter(M))
-  return Return_plot
-
 def bookAndFill(mass,sample,flavour):
  
 #    CSV_Value = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693] 
@@ -192,37 +152,23 @@ def bookAndFill(mass,sample,flavour):
                 tchain.PassJSON):
             continue
 
-
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
-           NBjet=0
- 	   if tchain.jetDeepCSVAK4_j1>j:
-	      NBjet = NBjet + 1
+           SFs = []
+           if tchain.jetDeepCSVAK4_j1>j:
+             SFs.append(getattr(tchain,'DeepSF_%s_j1'%i.low()))
            if tchain.jetDeepCSVAK4_j2>j:
-              NBjet = NBjet + 1
+             SFs.append(getattr(tchain,'DeepSF_%s_j2'%i.low()))
 
-	   if i =='L' :
-	     weight = tchain.evtDeepBweight_l
-	   elif i == 'M':
-	     weight = tchain.evtDeepBweight_m
-	   elif i == 'T':
-	     weight = tchain.evtDeepBweight_t
-		
-           if NBjet == 0:
-              #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_0b"].Fill(weight)
-           if NBjet == 1:
-              #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_1b"].Fill(weight)
-           if NBjet == 2:
-              #hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,tchain.evtBweight_m)
-              hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,weight)
-              hDict[i]["h_weight_2b"].Fill(weight)
-	   if NBjet > 0:
-	      hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,weight)
+           #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
+           hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))
 
+           hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,bWeight(SFs,1))
+
+           hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,bWeight(SFs,2))
+
+           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,1))
+           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,2))
 
     return hDict
 

@@ -13,7 +13,7 @@ from rootTools import tdrstyle as setTDRStyle
 usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 
 #eosPrefix = "root://eoscms.cern.ch//eos/cms"
-#eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGravitonToQuarkQuark_kMpl01_Spring16_20161201_145940/"
+#eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGraviton2qq_kMpl01_Spring16_20161201_145940/"
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qg = {
@@ -114,7 +114,7 @@ def Do_Inter(Rate):
 
 def bookAndFill(mass,sample,flavour):
  
-#[0.05,0.1,0.15,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5,0.55,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9,0.95,0.9693] 
+#[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.5803,0.60,0.65,0.70,0.75,0.8,0.85,0.8838,0.9,0.935,0.95,0.9693]#[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
 #    CSV_Value=[0.5,0.6,0.7,0.8,0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94,0.95,0.96]
     #CSV_Value=[0.82,0.84,0.86,0.88]#0.5,0.6,0.7,0.8,0.85,0.9,0.91,0.93,0.95,0.97]
 
@@ -166,28 +166,22 @@ def bookAndFill(mass,sample,flavour):
     for i in progressbar(range(nEntries), "Mass "+str(mass)+": ", 40):
         tchain.GetEntry(i)
 
+
 	for i in CSV_Value:
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
 
            if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
              continue
         
-        #implement analysis
            if not (abs(tchain.deltaETAjj)<1.1       and
                 abs(tchain.etaWJ_j1)<2.5         and
                 abs(tchain.etaWJ_j2)<2.5         and
 
                 tchain.pTWJ_j1>60                and
-                #tchain.pTWJ_j1<6500              and
                 tchain.pTWJ_j2>30                and
-                #tchain.pTWJ_j2<6500              and
 
-                #tchain.mjj > 1246                and
-                #tchain.mjj < 14000               and
-                
                 tchain.PassJSON):
             continue
-
 
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
@@ -281,7 +275,7 @@ if __name__ == '__main__':
       g_an_acc[i]    = rt.TGraphAsymmErrors()
   
       g_0btag_rate[i] = rt.TGraphAsymmErrors()
-      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Rate")
+      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Efficincy")
       g_0btag_rate[i].SetLineWidth(2)
       g_1btag_rate[i] = rt.TGraphAsymmErrors()
       g_1btag_rate[i].SetMarkerColor(rt.kRed)
@@ -348,6 +342,8 @@ if __name__ == '__main__':
 
         h1.Print(outFolder+"/shapes_"+str(mass)+"_"+flavour+"_"+str(int(i*1000))+".pdf")
 
+        rootFile = rt.TFile(outFolder+"/"+outName+"_"+str(int(i*1000))+".root", 'recreate')
+
         for n,h in mDict[mass][i].iteritems():
             h.Write()
 
@@ -372,6 +368,8 @@ if __name__ == '__main__':
         g_le1btag_rate_Q.SetLineColor(rt.kGreen)
         g_le1btag_rate_Q.SetLineWidth(2)
 
+        g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
+
         g_0btag_rate_Q.Write("g_0btag_rate")
         g_1btag_rate_Q.Write("g_1btag_rate")
         g_2btag_rate_Q.Write("g_2btag_rate")
@@ -381,7 +379,6 @@ if __name__ == '__main__':
         g_1btag_weight[i].Write("g_1btag_weight")
         g_2btag_weight[i].Write("g_2btag_weight")
 
- 
       rootFile.Close()
 
     for i in CSV_Value:
@@ -416,12 +413,13 @@ if __name__ == '__main__':
        g_le1btag_rate_Q.SetLineWidth(2)
        #g_le1btag_rate_Q.Write("g_le1btag_rate")
 
-       g_1btag_rate_Q.SetTitle('Tagging Rate of DeepCSV='+str(i)+';Mass (GeV);Tagging Rate')
-       g_1btag_rate_Q.Draw("APL")
        g_1btag_rate_Q.GetYaxis().SetRangeUser(0,1)
+       g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
+       g_1btag_rate_Q.Draw("APL")
        g_2btag_rate_Q.Draw("PL,sames")
        g_le1btag_rate_Q.Draw("PL,sames")
-   
+
+ 
        leg = rt.TLegend(0.87, 0.80, 0.96, 0.89)
        leg.AddEntry(g_1btag_rate_Q,"1-tag","L")
        leg.AddEntry(g_2btag_rate_Q,"2-tag","L")

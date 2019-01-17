@@ -71,6 +71,64 @@ massRange  = {500: [75,0,1500],
               9000: [20,0,12000]
               }
 
+def QuaInter(F):
+  def Func(x):
+     z = 0
+     mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
+     for i in mass:
+        term = 1.0
+        for j in [y for y in mass if y!=i]:
+           term = (float(x)-float(j))/(float(i)-float(j))*term
+        z=z+term*F.Eval(i)
+     return  z
+  return Func
+
+def bWeight(SFsForBTaggedJets, nBTags):
+
+####################################################################
+# Event weight matrix:                                             #
+#------------------------------------------------------------------#
+# nBTags\b-tagged jets  |    0        1             2              #
+#------------------------------------------------------------------#
+#   0                   |    1      1-SF      (1-SF1)(1-SF2)       #
+#                       |                                          #
+#   1                   |    0       SF    SF1(1-SF2)+(1-SF1)SF2   #
+#                       |                                          #
+#   2                   |    0        0           SF1SF2           #
+####################################################################
+    if len(SFsForBTaggedJets) > 2:
+      raise AttributeError("Only two leading jets are considered. Hence, the number of b-tagged jets cannot exceed 2")
+    if len(nBTags)>2:
+      raise AttributeError('Only two leading jets are considered. Hence, the number of b-tags cannot exceed 2')
+    if nBTags> len(SFsForBTaggedJets):
+      return 0
+    if nBTags ==0 and len(SFsForBTaggedJets)==0:
+      return 1.0
+    weight =0.
+    if (len(SFsForBTaggedJets)==1):
+      SF = SFsForBTaggedJets[0]
+      for i in range(2):
+        if (i != nBTags ): continue
+        weight == pow(SF,i)*pow(1-SF,1-i)
+
+    elif (len(SFsForBTaggedJets)==2):
+      SF1 = SFsForBTaggedJets[0]
+      SF2 = SFsForBTaggedJets[1]
+      for i in range(2):
+        for j  in range(2):
+          if (i+j)!= nBTags: continue
+          weight += pow(SF1,i)*pow(1-SF,1-i)*pow(SF2,j)*pow(1-SF2,1-j)
+    return weight
+
+def Do_Inter(Rate):
+  mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
+  Inter = QuaInter (Rate)
+  Return_plot = rt.TGraphAsymmErrors()
+  num = -1
+  for M in range(1000,9000,100):
+     num=num+1
+     Return_plot.SetPoint(num,M,Inter(M))
+  return Return_plot
 
 
 def progressbar(it, prefix="", size=60):
