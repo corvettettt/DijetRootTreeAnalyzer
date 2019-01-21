@@ -28,75 +28,79 @@ sampleNames_qg['central'] = {
 6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
 7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
 8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root'
-                  }
-sampleNames_qg['down'] = {
-500 :,
-1000:,
-2000:,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
-                  }
-sampleNames_qg['up'] = {
-500 :,
-1000:,
-2000:,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
                   }
 
+sampleNames_qg['down'] = {
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
+                  }
+
+sampleNames_qg['up'] = {
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
+                  }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {}
 sampleNames_qq['central'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 sampleNames_qq['down'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
-                  }
-sampleNames_qq['up'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
                   }
 
-#CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693]
+sampleNames_qq['up'] = {
+500:'',
+1000:'',
+2000:'',
+3000:'',
+4000:'',
+5000:'',
+6000:'',
+7000:'',
+8000:'',
+9000:'',
+                  }
+
 CSV_Value = {
-   'L':0.1522,
-   'M':0.4941,
-   'T':0.8001
+   'L':0.5803,
+   'M':0.8838,
+   'T':0.9693
 }
 
 
@@ -115,9 +119,7 @@ massRange  = {500: [75,0,1500],
               }
 
 
-
 def bookAndFill(mass,sample,flavour):
- 
     #book histos
     hDict={}
     for i,j in CSV_Value.items():
@@ -166,7 +168,6 @@ def bookAndFill(mass,sample,flavour):
     for k in progressbar(range(nEntries), "Mass "+str(mass)+": ", 40):
         tchain.GetEntry(k)
 
-
 	for i,j in CSV_Value.items():
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
         
@@ -186,14 +187,25 @@ def bookAndFill(mass,sample,flavour):
                 tchain.PassJSON):
             continue
 
+
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
-           SFs = []
-           if tchain.jetDeepCSVAK4_j1>j:
-             SFs.append(getattr(tchain,'DeepSF_%s_j1'%i.low()))
-           if tchain.jetDeepCSVAK4_j2>j:
-             SFs.append(getattr(tchain,'DeepSF_%s_j2'%i.low()))
+	   SFs = []
+ 	   if tchain.jetCSVAK4_j1>j:
+             SFs.append(getattr(tchain,'CSVv2SF_%s_j1'%i.lower()))
+           if tchain.jetCSVAK4_j2>j:
+             SFs.append(getattr(tchain,'CSVv2SF_%s_j2'%i.lower()))
+	   print 
+	   print 'JetF: ',abs(tchain.jetpflavour_j1),'\t',abs(tchain.jetpflavour_j2)
+	   print 'lenght: ',len(SFs)
+	   print 'SFs: '
+           for tt in SFs:
+	     print str(tt),'\t'
+	   print 'expected 0: ',bWeight(SFs,0)
+	   print 'expected 1: ',bWeight(SFs,1)
+	   print 'expected 2: ',bWeight(SFs,2)
 
+		
            #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
            hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))
 
@@ -201,8 +213,8 @@ def bookAndFill(mass,sample,flavour):
 
            hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,bWeight(SFs,2))
 
-           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,1))
-           hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,2))
+	   hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,1))
+ 	   hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj,bWeight(SFs,2))
 
 
     return hDict
@@ -219,11 +231,14 @@ if __name__ == '__main__':
                       help="Name of the signal flavour")
     parser.add_option('-m','--model',dest="model",type="string",default="qq",
                       help="Name of the signal model")
-     parser.add_option('-s','--su',dest=su,type='string',default = 'central',help='central/up/down')
+    parser.add_option('-s','--su',dest='su',type = 'string',default='central',help='central/up/down')
+
     (options,args) = parser.parse_args()
     flavour = options.flavour
     model   = options.model
     su = options.su
+
+
     print "selected flavour:",flavour
     print "signal model    :",model
     ###################################################################
@@ -239,21 +254,16 @@ if __name__ == '__main__':
         sampleNames = sampleNames_qq[su]
     elif (model == "qg"):
         sampleNames = sampleNames_qg[su]
-    elif (model == "gg"):
-        sampleNames = sampleNames_gg
     else:
         print "model unknown"
         exit
 
     for mass, sample in sorted(sampleNames.iteritems()):
         mDict[mass] = bookAndFill(mass,sample,flavour)
-        
-
-
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_deep_'+su
+    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_CSVv2_'+su+'temp'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -318,7 +328,7 @@ if __name__ == '__main__':
 	num = hDict[i]["h_mass_passed_le1b"].GetSumOfWeights()
 	g_le1btag_rate[i].SetPoint(bin,mass,num/den)
       bin += 1       
-    for i,j in CSV_Value.items():
+    for i,j in CSV_Value.items(): 
       rootFile = rt.TFile(outFolder+"/"+outName+"_"+i+".root", 'recreate')
       for mass,hDict in sorted(mDict.iteritems()):
         # shape comparison 0 btag
@@ -341,10 +351,8 @@ if __name__ == '__main__':
 
         h1.Print(outFolder+"/shapes_"+str(mass)+"_"+flavour+"_"+i+".pdf")
 
-
         for n,h in hDict[i].items():
             h.Write()
-
       g_an_acc[i].Write("g_an_acc")
       g_0btag_rate_Q=Do_Inter(g_0btag_rate[i])
       g_1btag_rate_Q=Do_Inter(g_1btag_rate[i])

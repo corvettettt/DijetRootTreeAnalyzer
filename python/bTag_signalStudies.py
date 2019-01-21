@@ -109,7 +109,7 @@ def bWeight(SFsForBTaggedJets, nBTags):
       SF = SFsForBTaggedJets[0]
       for i in range(2):
         if (i != nBTags ): continue
-        weight == pow(SF,i)*pow(1-SF,1-i)
+        weight = pow(SF,i)*pow(1-SF,1-i)
 
     elif (len(SFsForBTaggedJets)==2):
       SF1 = SFsForBTaggedJets[0]

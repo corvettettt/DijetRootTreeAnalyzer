@@ -195,6 +195,19 @@ def bookAndFill(mass,sample,flavour):
              SFs.append(getattr(tchain,'CSVv2SF_%s_j1'%i.lower()))
            if tchain.jetCSVAK4_j2>j:
              SFs.append(getattr(tchain,'CSVv2SF_%s_j2'%i.lower()))
+	  
+	   #print '\n',len(SFs)
+	   #ss ='' 
+           #for tt in SFs:
+	   #  ss += str(tt)+'\t'
+	   #print j
+	   #print tchain.jetCSVAK4_j1,'\t',tchain.jetCSVAK4_j2
+	   #print getattr(tchain,'CSVv2SF_%s_j1'%i.lower()),'\t',getattr(tchain,'CSVv2SF_%s_j2'%i.lower())	
+	   #print ss
+	   #print '0 category',bWeight(SFs,0)
+	   #print '1 category',bWeight(SFs,1)
+	   #print '2 category',bWeight(SFs,2)
+
 		
            #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
            hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))
