@@ -4552,6 +4552,1622 @@ def main(options,args):
 		 signalSys += ' --jesUp signalHistos_bb/ResonanceShapes_qq_bb_13TeV_Spring16_JESUP_Interpolation.root --jesDown signalHistos_bb/ResonanceShapes_qq_bb_13TeV_Spring16_JESDOWN_Interpolation.root'
 		 signalSys += ' --jerUp signalHistos_bb/ResonanceShapes_qq_bb_13TeV_Spring16_JER_Interpolation.root'
 
+            elif box=='PFNo10Dijet2017bgdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeep1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgdeeple1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b150':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b221':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b450':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b500':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b542':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b632':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b848':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b895':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeep1b953':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b150':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b221':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b450':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b500':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b542':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b632':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b848':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b895':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgdeeple1b953':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b150':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b221':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b450':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b500':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b542':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b632':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b848':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b895':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv21b953':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b150':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b221':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b450':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b500':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b542':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b632':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b848':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b895':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bgCSVv2le1b953':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b150':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b221':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b450':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b500':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b542':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b632':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b848':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b895':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeeple1b953':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b150':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b221':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b450':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b500':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b542':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b632':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b848':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b895':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbdeep2b953':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeeple1b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbdeep2b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b150':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b221':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b450':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b500':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b542':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b632':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b848':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b895':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv2le1b953':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b150':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b221':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b450':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b500':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b542':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b632':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b848':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b895':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2016bbCSVv22b953':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv21b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2le1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv2le1b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bbCSVv22b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo10Dijet2017bgCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeep1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgdeeple1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeepNon100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeeple1b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbdeep2b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv2le1b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b100':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b152':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b200':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b250':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b300':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b350':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b400':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b494':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b580':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b600':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b650':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b700':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b750':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b800':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b883':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bbCSVv22b969':
+                 signalSys += ' --jesUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2Non100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv21b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b100':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b152':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b200':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b250':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b300':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b350':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b400':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b494':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b580':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b600':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b650':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b700':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b750':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b800':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b883':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_JER_Interpolation_rescale.root'
+
+            elif box=='PFNo11Dijet2017bgCSVv2le1b969':
+                 signalSys += ' --jesUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESUP_Interpolation_rescale.root --jesDown signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JESDOWN_Interpolation_rescale.root'
+                 signalSys += ' --jerUp signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_JER_Interpolation_rescale.root'
+
 #EDITJEU
 
 
@@ -7756,6 +9372,1218 @@ def main(options,args):
 
         elif box == 'PF1103Dijet2017bb':
 	  signalDsName = 'signalHistos_bb/ResonanceShapes_qq_bb_13TeV_Spring16_Norminal_Interpolation.root'
+        elif box=='PFNo10Dijet2017bgdeepNon100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeep1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgdeeple1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeepNon100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b150':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b221':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b450':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b500':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b542':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b632':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b848':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b895':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeep1b953':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b150':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b221':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b450':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b500':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b542':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b632':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b848':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b895':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgdeeple1b953':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2Non100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b150':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b221':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b300':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b350':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b400':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b450':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b500':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b542':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b600':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b632':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b700':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b750':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b800':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b848':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b895':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv21b953':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b150':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b221':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b450':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b500':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b542':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b632':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b848':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b895':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bgCSVv2le1b953':
+                signalDsName = 'signalHistos_bg_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeepNon100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b150':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b221':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b450':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b500':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b542':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b632':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b848':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b895':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeeple1b953':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b150':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b221':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b300':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b350':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b400':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b450':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b500':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b542':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b600':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b632':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b700':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b750':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b800':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b848':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b895':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbdeep2b953':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeepNon100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeeple1b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbdeep2b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2Non100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b150':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b221':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b450':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b500':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b542':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b632':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b848':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b895':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv2le1b953':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b100':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b150':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_150_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b221':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_221_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b300':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b350':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b400':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b450':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_450_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b500':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_500_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b542':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_542_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b600':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b632':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_632_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b700':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b750':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b800':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b848':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_848_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b895':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_895_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2016bbCSVv22b953':
+                signalDsName = 'signalHistos_bb_Dec_For2016Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_953_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv21b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2le1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2Non100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv2le1b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bbCSVv22b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo10Dijet2017bgCSVv2Non100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeepNon100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeep1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgdeeple1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_deep_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeepNon100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeeple1b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbdeep2b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_deep_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2Non100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv2le1b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b100':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b152':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b200':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b250':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b300':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b350':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b400':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b494':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b580':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b600':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b650':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b700':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b750':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b800':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b883':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bbCSVv22b969':
+                signalDsName = 'signalHistos_bb_Dec_For2017Scan_CSVv2_2b/ResonanceShapes_qq_bb_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2Non100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_Non/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv21b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b100':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_100_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b152':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_152_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b200':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_200_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b250':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_250_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b300':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_300_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b350':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_350_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b400':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_400_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b494':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_494_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b580':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_580_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b600':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_600_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b650':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_650_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b700':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_700_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b750':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_750_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b800':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_800_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b883':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_883_Nominal_Interpolation_rescale.root'
+
+        elif box=='PFNo11Dijet2017bgCSVv2le1b969':
+                signalDsName = 'signalHistos_bg_Dec_For2017Scan_CSVv2_le1b/ResonanceShapes_qg_bg_13TeV_Spring16_969_Nominal_Interpolation_rescale.root'
+
 #EDITSI
 
         backgroundDsName = {'CaloDijet2015':'inputs/data_CaloScoutingHT_Run2015D_BiasCorrected_CaloDijet2015.root',
@@ -9878,6 +12706,814 @@ def main(options,args):
                             'none':'none',
 
                             'PFinDijet2017bgdeeple1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeepNon100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeep1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgdeeple1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeepNon100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeep1b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgdeeple1b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2Non100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv21b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bgCSVv2le1b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeepNon100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeeple1b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbdeep2b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeepNon100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeeple1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbdeep2b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2Non100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv2le1b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b100':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b150':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b221':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b300':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b350':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b400':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b450':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b500':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b542':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b600':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b632':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b700':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b750':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b800':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b848':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b895':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2016bbCSVv22b953':'inputs/JetHT_run2016_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv21b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2le1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2Non100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv2le1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bbCSVv22b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo10Dijet2017bgCSVv2Non100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeepNon100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeep1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgdeeple1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeepNon100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeeple1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbdeep2b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2Non100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv2le1b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bbCSVv22b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2Non100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv21b969':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b100':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b152':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b200':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b250':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b300':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b350':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b400':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b494':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b580':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b600':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b650':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b700':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b750':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b800':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b883':'inputs/JetHT_run2017_red_cert_scan.root',
+
+                            'PFNo11Dijet2017bgCSVv2le1b969':'inputs/JetHT_run2017_red_cert_scan.root',
 
 #EDITBG
                             }

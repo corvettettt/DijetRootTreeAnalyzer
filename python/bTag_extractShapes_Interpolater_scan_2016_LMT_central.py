@@ -7,7 +7,7 @@ import glob
 
 
 #to import samples names
-from bTag_signalStudies_scan_deep_2016_LMT_central import *
+from bTag_signalStudies_scan_deep_2016_LMT import *
 
 usage = """usage: python python/bTag_extractShapes.py -e none -m qq"""
 
@@ -131,11 +131,11 @@ if __name__ == '__main__':
     histo={}
 
     if (model == "qq"):
-      sampleNames = sampleNames_qq
+      sampleNames = sampleNames_qq['central']
       flavor = 'bb'
     elif (model == "qg"):
       flavor = 'bg'
-      sampleNames = sampleNames_qg
+      sampleNames = sampleNames_qg['central']
     elif (model == "gg"):
       sampleNames = sampleNames_gg
     else:

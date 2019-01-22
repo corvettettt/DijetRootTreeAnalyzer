@@ -16,7 +16,7 @@ for n in ['CSVv2','deep']:
       elif i =='qg':
         cate = ['le1b','1b','Non']
       for k in cate:
-        command  += 'cp -r signalHistos_%s_Dec_ForScan_'%flavor+n+'_central signalHistos_%s_Dec_ForScan_'%flavor+n+'_central_'+k+'\n'
-
+#        command  += 'cp -r signalHistos_%s_Dec_ForScan_'%flavor+n+'_central signalHistos_%s_Dec_ForScan_'%flavor+n+'_central_'+k+'\n'
+	pass
 print command
  

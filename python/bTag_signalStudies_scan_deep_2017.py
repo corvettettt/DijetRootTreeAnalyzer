@@ -17,30 +17,29 @@ usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qg = {
-500 :'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_0000GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_Dec_central/bstar2qg_9000GeV_reduced_skim.root',
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
                   }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {
-1000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_1000GeV_reduced_skim.root',
-2000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_2000GeV_reduced_skim.root',
-3000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_3000GeV_reduced_skim.root',
-4000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_4000GeV_reduced_skim.root',
-5000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_5000GeV_reduced_skim.root',
-6000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_6000GeV_reduced_skim.root',
-7000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_7000GeV_reduced_skim.root',
-8000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_8000GeV_reduced_skim.root',
-9000: '/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_Dec_central/RSGraviton2qq_9000GeV_reduced_skim.root',
-
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_9000GeV_reduced_skim.root',
                   }
 
 CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693] 
@@ -152,9 +151,6 @@ def bookAndFill(mass,sample,flavour):
       hDict[i]["h_mass_passed_le1b"].SetMarkerColor(rt.kGreen)
       hDict[i]["h_mass_passed_le1b"].SetMarkerSize(0.5)
 
-      hDict[i]["h_weight_0b"] = rt.TH1F(prefix+"_weight_0b",prefix+"_weight_0b",2000,0.,2.)
-      hDict[i]["h_weight_1b"] = rt.TH1F(prefix+"_weight_1b",prefix+"_weight_1b",2000,0.,2.)
-      hDict[i]["h_weight_2b"] = rt.TH1F(prefix+"_weight_2b",prefix+"_weight_2b",2000,0.,2.)
 
 
 
@@ -192,17 +188,13 @@ def bookAndFill(mass,sample,flavour):
               NBjet = NBjet + 1
 	
            if NBjet == 0:
-              #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj)
-              hDict[i]["h_weight_0b"].Fill(tchain.evtBweight_m)
            if NBjet == 1:
               #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj)
-              hDict[i]["h_weight_1b"].Fill(tchain.evtBweight_m)
            if NBjet == 2:
               #hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj)
-              hDict[i]["h_weight_2b"].Fill(tchain.evtBweight_m)
 	   if NBjet > 0:
 	      hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj)
 
@@ -253,7 +245,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec_For2017Scan_deep'
+    outFolder = "signalHistos_"+flavour+'_Jan_For2017Scan_deep'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -266,9 +258,6 @@ if __name__ == '__main__':
     g_1btag_rate={}
     g_2btag_rate={}
     g_le1btag_rate={}
-    g_0btag_weight={}
-    g_1btag_weight={}
-    g_2btag_weight={}
 
     #make analysis vs mass
     for i in CSV_Value:
@@ -291,9 +280,6 @@ if __name__ == '__main__':
       g_le1btag_rate[i].SetLineColor(rt.kGreen)
       g_le1btag_rate[i].SetLineWidth(2)
  
-      g_0btag_weight[i] = rt.TGraphAsymmErrors()
-      g_1btag_weight[i] = rt.TGraphAsymmErrors()
-      g_2btag_weight[i] = rt.TGraphAsymmErrors()
   
 
     bin=0 
@@ -306,14 +292,11 @@ if __name__ == '__main__':
         num = hDict[i]["h_mass_passed_0b"].GetSumOfWeights()
         den = hDict[i]["h_mass_passed"].GetSumOfWeights()
         g_0btag_rate[i].SetPoint(bin,mass,num/den)
-        g_0btag_weight[i].SetPoint(bin,mass,hDict[i]["h_weight_0b"].GetMean())
         num = hDict[i]["h_mass_passed_1b"].GetSumOfWeights()
         g_1btag_rate[i].SetPoint(bin,mass,num/den)
-        g_1btag_weight[i].SetPoint(bin,mass,hDict[i]["h_weight_1b"].GetMean())
 
         num = hDict[i]["h_mass_passed_2b"].GetSumOfWeights()
         g_2btag_rate[i].SetPoint(bin,mass,num/den)
-        g_2btag_weight[i].SetPoint(bin,mass,hDict[i]["h_weight_2b"].GetMean())
 
 	num = hDict[i]["h_mass_passed_le1b"].GetSumOfWeights()
 	g_le1btag_rate[i].SetPoint(bin,mass,num/den)
@@ -375,9 +358,6 @@ if __name__ == '__main__':
         g_2btag_rate_Q.Write("g_2btag_rate")
         g_le1btag_rate_Q.Write("g_le1btag_rate")
 
-        g_0btag_weight[i].Write("g_0btag_weight")
-        g_1btag_weight[i].Write("g_1btag_weight")
-        g_2btag_weight[i].Write("g_2btag_weight")
 
       rootFile.Close()
 

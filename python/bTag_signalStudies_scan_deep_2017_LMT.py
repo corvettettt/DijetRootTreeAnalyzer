@@ -28,69 +28,72 @@ sampleNames_qg['central'] = {
 6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
 7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
 8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root'
-                  }
-sampleNames_qg['down'] = {
-500 :,
-1000:,
-2000:,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
-                  }
-sampleNames_qg['up'] = {
-500 :,
-1000:,
-2000:,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
                   }
 
+sampleNames_qg['down'] = {
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_9000GeV_reduced_skim.root',
+                  }
+
+sampleNames_qg['up'] = {
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_9000GeV_reduced_skim.root',                  }
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {}
 sampleNames_qq['central'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_9000GeV_reduced_skim.root',
+
                   }
 sampleNames_qq['down'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_9000GeV_reduced_skim.root',
                   }
+
 sampleNames_qq['up'] = {
-1000: ,
-2000: ,
-3000:,
-4000:,
-5000:,
-6000:,
-7000:,
-8000:,
-9000:,
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_9000GeV_reduced_skim.root',
                   }
+
 
 #CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693]
 CSV_Value = {
@@ -190,9 +193,9 @@ def bookAndFill(mass,sample,flavour):
 
            SFs = []
            if tchain.jetDeepCSVAK4_j1>j:
-             SFs.append(getattr(tchain,'DeepSF_%s_j1'%i.low()))
+             SFs.append(getattr(tchain,'DeepSF_%s_j1'%i.lower()))
            if tchain.jetDeepCSVAK4_j2>j:
-             SFs.append(getattr(tchain,'DeepSF_%s_j2'%i.low()))
+             SFs.append(getattr(tchain,'DeepSF_%s_j2'%i.lower()))
 
            #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
            hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,bWeight(SFs,0))
@@ -219,7 +222,7 @@ if __name__ == '__main__':
                       help="Name of the signal flavour")
     parser.add_option('-m','--model',dest="model",type="string",default="qq",
                       help="Name of the signal model")
-     parser.add_option('-s','--su',dest=su,type='string',default = 'central',help='central/up/down')
+    parser.add_option('-s','--su',dest='su',type='string',default = 'central',help='central/up/down')
     (options,args) = parser.parse_args()
     flavour = options.flavour
     model   = options.model
@@ -253,7 +256,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Dec_ForScan_deep_'+su
+    outFolder = "signalHistos_"+flavour+'_Jan_For2017Scan_deep_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)

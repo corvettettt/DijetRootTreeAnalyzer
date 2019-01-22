@@ -7,7 +7,7 @@ import glob
 
 
 #to import samples names
-from bTag_signalStudies_scan_deep_2017_LMT import *
+from bTag_signalStudies_scan_deep_2016_LMT_central import *
 
 usage = """usage: python python/bTag_extractShapes.py -e none -m qq"""
 
@@ -131,11 +131,11 @@ if __name__ == '__main__':
     histo={}
 
     if (model == "qq"):
-      sampleNames = sampleNames_qq['central']
+      sampleNames = sampleNames_qq
       flavor = 'bb'
     elif (model == "qg"):
       flavor = 'bg'
-      sampleNames = sampleNames_qg['central']
+      sampleNames = sampleNames_qg
     elif (model == "gg"):
       sampleNames = sampleNames_gg
     else:
@@ -150,7 +150,7 @@ if __name__ == '__main__':
     for mass, sample in sorted(sampleNames.iteritems()):
        histo[mass] = makeShape(mass,sample,model)
 
-    for i in CSV_Value:
+    for i in CSV_Value :
 
       if model == 'qg':
         effFile = rt.TFile(options.eff+'/signalHistos_bg_'+i+'.root')  
