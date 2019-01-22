@@ -21,7 +21,7 @@ cd DijetRootTreeAnalyzer
 Update
 ============
 Just use step1.py step2.py step3.py for no-weight-appliy limit
-and use step1_LMT.py step2_LMT.py step3.py for weight-appliy limit
+and use step1_LMT.py step2_LMT.py step3_LMT.py for weight-appliy limit
 
 Coresponding parameters should be modified in the python file in python/.
 
