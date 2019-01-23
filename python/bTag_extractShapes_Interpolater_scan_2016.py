@@ -35,8 +35,6 @@ def makeShape(mass, sample, model):
         #select bb events at gen level
         if (model == 'qq' and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
             continue
-        #if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
-            continue
 
         if not (abs(tchain.deltaETAjj)<1.3       and
                 abs(tchain.etaWJ_j1)<2.5         and

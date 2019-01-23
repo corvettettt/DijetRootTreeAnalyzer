@@ -183,9 +183,11 @@ def bookAndFill(mass,sample,flavour):
                 tchain.PassJSON):
             continue
 
-           if model == 'qq':
-             if not ( abs(tchain.jetHflavour_j1) == 5 and abs(tchain.jetHflavour_j2) == 5):
-               continue
+           if (flavour == "bb" and (abs(tchain.jetHflavour_j1) != 5 or abs(tchain.jetHflavour_j2) != 5)):
+             continue
+           if flavour == 'bg':
+             if not ((abs(tchain.jetpflavour_j1) == 5 and abs(tchain.jetpflavour_j2) == 21) or (abs(tchain.jetpflavour_j1) == 21 and abs(tchain.jetpflavour_j2) == 5)):
+                continue
 
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
@@ -255,7 +257,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Jan_For2016Scan_deep_'+su
+    outFolder = "signalHistos_"+flavour+'_Jan_For2016Efficiency_deep_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -277,7 +279,7 @@ if __name__ == '__main__':
       g_an_acc[i]    = rt.TGraphAsymmErrors()
   
       g_0btag_rate[i] = rt.TGraphAsymmErrors()
-      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Rate")
+      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Efficiency")
       g_0btag_rate[i].SetLineWidth(2)
       g_1btag_rate[i] = rt.TGraphAsymmErrors()
       g_1btag_rate[i].SetMarkerColor(rt.kRed)
@@ -425,7 +427,7 @@ if __name__ == '__main__':
        leg.AddEntry(g_le1btag_rate_Q,"le1-tag","L")
        leg.Draw("same")
    
-       c1.Print(outFolder+"/tagRate_"+flavour+"_"+i+".pdf")
+       c1.Print(outFolder+"/tagEfficiency_"+flavour+"_"+i+".pdf")
    
    
        # close file

@@ -189,6 +189,10 @@ def bookAndFill(mass,sample,flavour):
                 tchain.PassJSON):
             continue
 
+	   if model == 'qq':
+	     if not ( abs(tchain.jetHflavour_j1) == 5 and abs(tchain.jetHflavour_j2) == 5):
+	       continue
+
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
            SFs = []

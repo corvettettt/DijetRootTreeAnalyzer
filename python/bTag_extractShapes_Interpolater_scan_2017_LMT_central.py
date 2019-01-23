@@ -35,7 +35,15 @@ def makeShape(mass, sample, model):
         #select bb events at gen level
         if (model == 'qq' and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
             continue
-        if (model == 'qg' and (tchain.jetHflavour_j1 != 5 and tchain.jetHflavour_j2 != 5)):
+
+        if not (abs(tchain.deltaETAjj)<1.1       and
+                abs(tchain.etaWJ_j1)<2.5         and
+                abs(tchain.etaWJ_j2)<2.5         and
+
+                tchain.pTWJ_j1>60                and
+                tchain.pTWJ_j2>30                and
+
+                tchain.PassJSON):
             continue
 
 	Mjj = {}

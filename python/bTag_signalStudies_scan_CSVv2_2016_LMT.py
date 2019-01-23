@@ -180,6 +180,10 @@ def bookAndFill(mass,sample,flavour):
 
 	for i,j in CSV_Value.items():
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
+
+           if model == 'qq':
+             if not ( abs(tchain.jetHflavour_j1) == 5 and abs(tchain.jetHflavour_j2) == 5):
+               continue
         
         #implement analysis
            if not (abs(tchain.deltaETAjj)<1.3       and

@@ -13,36 +13,35 @@ from rootTools import tdrstyle as setTDRStyle
 usage = """usage: python python/bTag_signalStudies.py -f bb -m qq"""
 
 #eosPrefix = "root://eoscms.cern.ch//eos/cms"
-#eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGraviton2qq_kMpl01_Spring16_20161201_145940/"
+#eosPath = "/store/group/phys_exotica/dijet/Dijet13TeV/deguio/fall16_red_MC/RSGravitonToQuarkQuark_kMpl01_Spring16_20161201_145940/"
 eosPrefix = ""
 eosPath = "/tmp/TylerW/"
-sampleNames_qg = {
-500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_500GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
-                  }
-
-#CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_9000GeV_reduced_skim.root',
-                  }
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/RSG_New/RSG_9000GeV_reduced_skim.root',
+                 }
 
-CSV_Value = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8001,0.8838,0.9693] 
+sampleNames_qg = {
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2016JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
+
+                 }
+
+CSV_Value = [0.1,0.15,0.2219,0.3,0.35,0.4,0.45,0.5, 0.5426,0.6, 0.6324,0.7,0.75,0.8, 0.8484, 0.8958, 0.9535]
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_gg = {
@@ -58,7 +57,7 @@ sampleNames_gg = {
                   }
 
 treeName = "rootTupleTree/tree"
-massRange  = {500: [75,0,1500],
+massRange  = {#500: [75,0,1500],
               #750: [75,0,1500],
               1000: [50,0,2000],
               2000: [50,0,5000],
@@ -113,7 +112,7 @@ def Do_Inter(Rate):
 
 def bookAndFill(mass,sample,flavour):
  
-#[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.5803,0.60,0.65,0.70,0.75,0.8,0.85,0.8838,0.9,0.935,0.95,0.9693]#[0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.46,0.5,0.55,0.60,0.65,0.70,0.75,0.8,0.85,0.9,0.935,0.95]
+#[0.05,0.1,0.15,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5,0.55,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9,0.95,0.9693] 
 #    CSV_Value=[0.5,0.6,0.7,0.8,0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94,0.95,0.96]
     #CSV_Value=[0.82,0.84,0.86,0.88]#0.5,0.6,0.7,0.8,0.85,0.9,0.91,0.93,0.95,0.97]
 
@@ -166,37 +165,42 @@ def bookAndFill(mass,sample,flavour):
 	for i in CSV_Value:
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
 
-
-
-           if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
+           if (flavour == "bb" and (abs(tchain.jetHflavour_j1) != 5 or abs(tchain.jetHflavour_j2) != 5)):
              continue
+           if flavour == 'bg':
+             if not ((abs(tchain.jetpflavour_j1) == 5 and abs(tchain.jetpflavour_j2) == 21) or (abs(tchain.jetpflavour_j1) == 21 and abs(tchain.jetpflavour_j2) == 5)):
+                continue
         
-           if not (abs(tchain.deltaETAjj)<1.1       and
+        #implement analysis
+           if not (abs(tchain.deltaETAjj)<1.3       and
                 abs(tchain.etaWJ_j1)<2.5         and
                 abs(tchain.etaWJ_j2)<2.5         and
 
                 tchain.pTWJ_j1>60                and
+                #tchain.pTWJ_j1<6500              and
                 tchain.pTWJ_j2>30                and
+                #tchain.pTWJ_j2<6500              and
 
+                #tchain.mjj > 1246                and
+                #tchain.mjj < 14000               and
+                
                 tchain.PassJSON):
             continue
+
 
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
            NBjet=0
- 	   if tchain.jetCSVAK4_j1>i:
+ 	   if tchain.jetDeepCSVAK4_j1>i:
 	      NBjet = NBjet + 1
-           if tchain.jetCSVAK4_j2>i:
+           if tchain.jetDeepCSVAK4_j2>i:
               NBjet = NBjet + 1
 	
            if NBjet == 0:
-              #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj)
            if NBjet == 1:
-              #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj)
            if NBjet == 2:
-              #hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_2b"].Fill(tchain.mjj)
 	   if NBjet > 0:
 	      hDict[i]["h_mass_passed_le1b"].Fill(tchain.mjj)
@@ -223,7 +227,8 @@ if __name__ == '__main__':
     print "selected flavour:",flavour
     print "signal model    :",model
     ###################################################################
-
+    if model == 'qq':
+      massRange[500] = [75,0,1500]
 
     # book histos and graphs
     mDict = {}
@@ -248,7 +253,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Jan_For2017Scan_CSVv2'
+    outFolder = "signalHistos_"+flavour+'_Jan_For2016Efficiency_deep'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -267,7 +272,7 @@ if __name__ == '__main__':
       g_an_acc[i]    = rt.TGraphAsymmErrors()
   
       g_0btag_rate[i] = rt.TGraphAsymmErrors()
-      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Efficincy")
+      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Efficiency")
       g_0btag_rate[i].SetLineWidth(2)
       g_1btag_rate[i] = rt.TGraphAsymmErrors()
       g_1btag_rate[i].SetMarkerColor(rt.kRed)
@@ -328,8 +333,6 @@ if __name__ == '__main__':
 
         h1.Print(outFolder+"/shapes_"+str(mass)+"_"+flavour+"_"+str(int(i*1000))+".pdf")
 
-        rootFile = rt.TFile(outFolder+"/"+outName+"_"+str(int(i*1000))+".root", 'recreate')
-
         for n,h in mDict[mass][i].iteritems():
             h.Write()
 
@@ -354,8 +357,6 @@ if __name__ == '__main__':
         g_le1btag_rate_Q.SetLineColor(rt.kGreen)
         g_le1btag_rate_Q.SetLineWidth(2)
 
-        g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
-
         g_0btag_rate_Q.Write("g_0btag_rate")
         g_1btag_rate_Q.Write("g_1btag_rate")
         g_2btag_rate_Q.Write("g_2btag_rate")
@@ -363,6 +364,7 @@ if __name__ == '__main__':
 
 
       rootFile.Close()
+
 
     for i in CSV_Value:
        # Draw and print
@@ -395,21 +397,20 @@ if __name__ == '__main__':
        g_le1btag_rate_Q.SetLineColor(rt.kGreen)
        g_le1btag_rate_Q.SetLineWidth(2)
        #g_le1btag_rate_Q.Write("g_le1btag_rate")
-
-       g_1btag_rate_Q.GetYaxis().SetRangeUser(0,1)
-       g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
+ 
+       g_1btag_rate_Q.SetTitle('Tagging Efficiency of DeepCSV='+str(i)+';Mass (GeV);Tagging Efficiency')
        g_1btag_rate_Q.Draw("APL")
+       g_1btag_rate_Q.GetYaxis().SetRangeUser(0,1)
        g_2btag_rate_Q.Draw("PL,sames")
        g_le1btag_rate_Q.Draw("PL,sames")
-
- 
+   
        leg = rt.TLegend(0.87, 0.80, 0.96, 0.89)
        leg.AddEntry(g_1btag_rate_Q,"1-tag","L")
        leg.AddEntry(g_2btag_rate_Q,"2-tag","L")
        leg.AddEntry(g_le1btag_rate_Q,"ge1-tag","L")
        leg.Draw("same")
    
-       c1.Print(outFolder+"/tagRate_"+flavour+"_"+str(int(i*1000))+".pdf")
+       c1.Print(outFolder+"/tagEfficiency_"+flavour+"_"+str(int(i*1000))+".pdf")
    
    
        # close file

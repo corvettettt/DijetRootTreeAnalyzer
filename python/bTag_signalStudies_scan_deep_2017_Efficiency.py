@@ -166,11 +166,13 @@ def bookAndFill(mass,sample,flavour):
 	for i in CSV_Value:
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
 
-
-
-           if (flavour == "bb" and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
+           if (flavour == "bb" and (abs(tchain.jetHflavour_j1) != 5 or abs(tchain.jetHflavour_j2) != 5)):
              continue
-        
+           if flavour == 'bg':
+             if not ((abs(tchain.jetpflavour_j1) == 5 and abs(tchain.jetpflavour_j2) == 21) or (abs(tchain.jetpflavour_j1) == 21 and abs(tchain.jetpflavour_j2) == 5)):
+                continue
+       
+ 
            if not (abs(tchain.deltaETAjj)<1.1       and
                 abs(tchain.etaWJ_j1)<2.5         and
                 abs(tchain.etaWJ_j2)<2.5         and
@@ -184,13 +186,12 @@ def bookAndFill(mass,sample,flavour):
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
 
            NBjet=0
- 	   if tchain.jetCSVAK4_j1>i:
+ 	   if tchain.jetDeepCSVAK4_j1>i:
 	      NBjet = NBjet + 1
-           if tchain.jetCSVAK4_j2>i:
+           if tchain.jetDeepCSVAK4_j2>i:
               NBjet = NBjet + 1
 	
            if NBjet == 0:
-              #hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj,tchain.evtBweight_m)
               hDict[i]["h_mass_passed_0b"].Fill(tchain.mjj)
            if NBjet == 1:
               #hDict[i]["h_mass_passed_1b"].Fill(tchain.mjj,tchain.evtBweight_m)
@@ -248,7 +249,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Jan_For2017Scan_CSVv2'
+    outFolder = "signalHistos_"+flavour+'_Jan_For2017Efficiency_deep'
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -354,7 +355,7 @@ if __name__ == '__main__':
         g_le1btag_rate_Q.SetLineColor(rt.kGreen)
         g_le1btag_rate_Q.SetLineWidth(2)
 
-        g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
+        g_1btag_rate_Q.SetTitle('Tagging Efficiency of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
 
         g_0btag_rate_Q.Write("g_0btag_rate")
         g_1btag_rate_Q.Write("g_1btag_rate")
@@ -397,7 +398,7 @@ if __name__ == '__main__':
        #g_le1btag_rate_Q.Write("g_le1btag_rate")
 
        g_1btag_rate_Q.GetYaxis().SetRangeUser(0,1)
-       g_1btag_rate_Q.SetTitle('Tagging Rate of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
+       g_1btag_rate_Q.SetTitle('Tagging Efficiency of CSVv2='+str(i)+';Mass (GeV);Tagging Efficiency')
        g_1btag_rate_Q.Draw("APL")
        g_2btag_rate_Q.Draw("PL,sames")
        g_le1btag_rate_Q.Draw("PL,sames")
@@ -409,7 +410,7 @@ if __name__ == '__main__':
        leg.AddEntry(g_le1btag_rate_Q,"ge1-tag","L")
        leg.Draw("same")
    
-       c1.Print(outFolder+"/tagRate_"+flavour+"_"+str(int(i*1000))+".pdf")
+       c1.Print(outFolder+"/tagEfficiency_"+flavour+"_"+str(int(i*1000))+".pdf")
    
    
        # close file
