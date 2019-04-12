@@ -3,8 +3,8 @@ import os
 tag = 'PFNo35DijetYearflavorAlgo'
 
 #L = ['signalHistos_bb_Feb_For2017Scan_CSVv2','signalHistos_bg_Feb_For2017Scan_CSVv2','signalHistos_bb_Feb_For2017Scan_DeepCSV','signalHistos_bg_Feb_For2017Scan_DeepCSV','signalHistos_bb_Feb_For2017Scan_DeepJet','signalHistos_bg_Feb_For2017Scan_DeepJet']
-L = ['signalHistos_bg_MarInter_For2017Scan_DeepCSV','signalHistos_bb_MarInter_For2017Scan_DeepCSV','signalHistos_bg_MarInter_For2017Scan_CSVv2','signalHistos_bb_MarInter_For2017Scan_CSVv2']
-#L = ['signalHistos_bb_MarInter_For2017Scan_DeepJet','signalHistos_bg_MarInter_For2017Scan_DeepJet']
+#L = ['signalHistos_bg_MarInter_For2017Scan_DeepCSV','signalHistos_bb_MarInter_For2017Scan_DeepCSV','signalHistos_bg_MarInter_For2017Scan_CSVv2','signalHistos_bb_MarInter_For2017Scan_CSVv2']
+L = ['signalHistos_bb_MarInter_For2017Scan_DeepJet','signalHistos_bg_MarInter_For2017Scan_DeepJet']
 #L= ['signalHistos_bg_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_CSVv2','signalHistos_bg_Jan_For2017Scan_CSVv2']
 #L += ['signalHistos_bg_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_CSVv2','signalHistos_bg_Jan_For2016Scan_CSVv2']
 #L = ['signalHistos_bg_Dec_For2017Scan_deep','signalHistos_bg_Dec_For2016Scan_deep','signalHistos_bg_Dec_For2016Scan_CSVv2','signalHistos_bb_Dec_For2016Scan_deep','signalHistos_bb_Dec_For2017Scan_deep','signalHistos_bb_Dec_For2016Scan_CSVv2','signalHistos_bg_Dec_For2017Scan_CSVv2','signalHistos_bb_Dec_For2017Scan_CSVv2']
