@@ -29,7 +29,7 @@ if __name__=='__main__':
     if not ('ResonanceShapes' in i): 
       continue
     o = i
-    if 'ter' in i:
+    if 'Interpolation' in i:
        continue
     print 'processs '+i
     os.system('python python/getResonanceShapes.py -i '+i+' -f '+model+' --fineBinning --massrange 1600 9000 100 -o '+o.replace('.py','_Interpolation.root'))

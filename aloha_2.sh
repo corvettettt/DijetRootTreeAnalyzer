@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python python/excute2_2017.py -t PFNo11Dijet2017bgdeep1b -m qg -p exp -F signalHistos_bg_Dec_For2017Scan_deep_1b
+python python/excute2_2017.py -t PFNo32Dijet2017bbDeepJetle1b -m qq -p exp -F signalHistos_bb_MarInter_For2017Scan_DeepJet_le1b
 

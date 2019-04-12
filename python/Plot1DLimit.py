@@ -464,12 +464,10 @@ if __name__ == '__main__':
 
 
 	    for thyModel in thyModelsToDraw:
-	      if output=='exp':
-	         print thyModel
+	         print thyModel,'   expected:'
 	         FindPoint(gluinoMassArray[(Box,model)], expectedLimit[(Box,model)], mass_xsec[thyModel], sig_xsec[thyModel])
 	         print
-              if output=='obs': 
-                 print thyModel
+                 print thyModel,'   observed:'
                  FindPoint(gluinoMassArray[(Box,model)], observedLimit[(Box,model)], mass_xsec[thyModel], sig_xsec[thyModel])
                  print
             nPoints = len(observedLimit[(Box,model)])
@@ -489,6 +487,7 @@ if __name__ == '__main__':
 
 
             gr_expectedLimit[(Box,model)] = rt.TGraph(nPoints, gluinoMassArray[(Box,model)], expectedLimit[(Box,model)])
+	    print gr_expectedLimit[(Box,model)].Eval(2000)
             gr_expectedLimit[(Box,model)].SetLineWidth(3)
             gr_expectedLimit[(Box,model)].SetLineStyle(2)
             if len(models)>1:

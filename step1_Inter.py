@@ -1,0 +1,21 @@
+import sys
+ 
+command = '' 
+for n in ['CSVv2','DeepCSV','DeepJet']:
+ for m in ['2017']:
+  for i in ['qq','qg']:
+    if i == 'qq': 
+     flavor = 'bb'
+    if i == 'qg': 
+     flavor = 'bg'
+    for j in ['central','up','down']: 
+     command += 'python python/bTag_signalStudies_scanInter_'+n+'_'+m+'.py -f %s -m %s -s %s'%(flavor,i,j)+'\n'
+#    if i =='qq':
+#        cate = ['le1b','2b','Non']
+#    elif i =='qg':
+#        cate = ['le1b','1b','Non']
+#    for k in cate:
+#        command  += 'cp -r signalHistos_%s_Dec_ForScan_'%flavor+n+' signalHistos_%s_Dec_ForScan_'%flavor+n+'_'+k+'\n'
+
+print command
+ 

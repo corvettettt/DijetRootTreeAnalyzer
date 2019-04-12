@@ -5,9 +5,13 @@ from array import array
 BG = '/afs/cern.ch/work/z/zhixing/private/CMSSW_7_4_14/src/CMSDIJET/DijetRootTreeAnalyzer/inputs/Data_Rate_2017.root'
 B = TFile(BG)
 
-#csv_list = [0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693] 
-csv_list = [0.1522, 0.3,0.4941, 0.5803, 0.8, 0.8838]
-
+#csv_list = [0.05,0.1,0.1522,0.2,0.25,0.3,0.35,0.4,0.45,0.4941,0.5803,0.6,0.65,0.7,0.75,0.8,0.85,0.8838,0.9693] 
+#csv_list = [0.1522, 0.3,0.4941, 0.5803, 0.8, 0.8838]
+csv_list  = {
+'L':0.5803,
+'M':0.8838,
+'T':0.9693,
+}
 L = [1246, 1313, 1383, 1455, 1530, 1607, 1687, 1770, 1856, 1945, 2037, 2132, 2231, 2332,2500,2700,3000,3300,3600,3900,4400,4800,5200,5600,6000,7000,8000,9000]
 
 gr={}
@@ -21,7 +25,7 @@ for i in csv_list:
   gr['le1'][i]={}
   gr['2'][i]={}
 
-for i in csv_list:
+for j,i in csv_list.items():
   Signal = 'signalHistos_bg_'+str(int(i*1000))+'.root' 
   S = TFile(Signal)
 
@@ -30,10 +34,10 @@ for i in csv_list:
   rate_1 = S.Get('g_1btag_rate')
   rate_2 = S.Get('g_2btag_rate')
 
-  data_rate_0 = B.Get('CSV0b_TagRate_'+str(int(float(i)*10000))) 
-  data_rate_1 = B.Get('CSV1b_TagRate_'+str(int(float(i)*10000)))
-  data_rate_le1 = B.Get('CSVle1b_TagRate_'+str(int(float(i)*10000)))
-  data_rate_2 = B.Get('CSV2b_TagRate_'+str(int(float(i)*10000)))
+  data_rate_0 = B.Get('DCSV0b_TagRate_'+str(int(float(i)*10000))) 
+  data_rate_1 = B.Get('DCSV1b_TagRate_'+str(int(float(i)*10000)))
+  data_rate_le1 = B.Get('DCSVle1b_TagRate_'+str(int(float(i)*10000)))
+  data_rate_2 = B.Get('DCSV2b_TagRate_'+str(int(float(i)*10000)))
 
   x = []
   y_0 = []
@@ -58,6 +62,9 @@ for i in csv_list:
        y_le1.append(0)
      else:
        y_le1.append(rate_1.Eval(mass)/math.sqrt(data_rate_le1.Eval(mass)))
+
+     if 3200<mass<3400 :
+       print mass,'   ', data_rate_le1.Eval(mass),'   ',rate_le1.Eval(mass)
 
      if data_rate_2.Eval(mass)==0:
        y_2.append(0)
@@ -86,11 +93,8 @@ for i in csv_list:
   leg.AddEntry(gr['1'][i],'1-tag','L')
   leg.AddEntry(gr['2'][i],'2-tag','L')
 
-  gr['0'][i].GetYaxis().SetRangeUser(0,4)
-  gr['0'][i].GetYaxis().SetTitle('S/sqrt(B)')
-  gr['0'][i].GetXaxis().SetTitle('Mass(GeV)')
-  gr['0'][i].SetTitle('2017 bstar power in 4 Catagories for CSVv2 ')
   gr['0'][i].Draw('APL')
+  gr['0'][i].GetYaxis().SetRangeUser(0,4)
   gr['le1'][i].Draw("PL,sames")
   gr['1'][i].Draw("PL,sames")
   gr['2'][i].Draw("PL,sames")
@@ -109,9 +113,6 @@ for i in ['0','1','le1','2']:
      index +=1
      gr[i][j].SetLineColor(index)
      if index == 1:
-       gr[i][j].GetXaxis().SetTitle('Mass(GeV)')
-       gr[i][j].GetYaxis().SetTitle('S/sqrt(B)')
-       gr[i][j].SetTitle('Several bTag Point of '+i+'b Catagory of 2017 b*')
        gr[i][j].Draw()
        gr[i][j].GetYaxis().SetRangeUser(0,4)
      else : 

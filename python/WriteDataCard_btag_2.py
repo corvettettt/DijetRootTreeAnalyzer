@@ -174,7 +174,7 @@ def writeDataCard(box,model,txtfileName,bkgs,paramNames,w,penalty,fixed,shapes=[
                         lumiErrs = [1.027 for sig in model.split('p')]
                 elif '2017' in box or '2016' in box or 'Dec' in box:
                         lumiErrs = [1. for sig in model.split('p')]                  
-		btagErrs = [1.031 for sig in model.split('p')]
+		btagErrs = [1.0 for sig in model.split('p')]
         else:
                 rates = [w.data("%s_%s"%(box,model)).sumEntries()]
                 processes = ["%s_%s"%(box,model)]
@@ -182,7 +182,7 @@ def writeDataCard(box,model,txtfileName,bkgs,paramNames,w,penalty,fixed,shapes=[
                         lumiErrs = [1.027]
                 elif '2017' in box or '2016' in box or 'Dec' in box:
                         lumiErrs = [1.] 
-		btagErrs = [1.031]          
+		btagErrs = [1.0]          
         rates.extend([w.var('Ntot_%s_%s'%(bkg,box)).getVal() for bkg in bkgs])
         processes.extend(["%s_%s"%(box,bkg) for bkg in bkgs])
         lumiErrs.extend([1.00 for bkg in bkgs])
@@ -274,7 +274,7 @@ def writeDataCardMC(box,model,txtfileName,bkgs,paramNames,w):
                         lumiErrs = [1.027 for sig in model.split('p')]
                 elif '2017' in box or '2016' in box or 'Dec' in box:
                         lumiErrs = [1. for sig in model.split('p')]   
-		btagErrs = [1.031 for sig in model.split('p')]
+		btagErrs = [1.0 for sig in model.split('p')]
         else:
                 rates = [w.data("%s_%s"%(box,model)).sumEntries()]
                 processes = ["%s_%s"%(box,model)]
@@ -282,14 +282,14 @@ def writeDataCardMC(box,model,txtfileName,bkgs,paramNames,w):
                         lumiErrs = [1.027]
                 elif '2017' in box or '2016' in box or 'Dec' in box:
                         lumiErrs = [1.]
-		btagErrs = [1.031]
+		btagErrs = [1.0]
         rates.extend([w.var('Ntot_%s_%s'%(bkg,box)).getVal() for bkg in bkgs])
         processes.extend(["%s_%s"%(box,bkg) for bkg in bkgs])
         if '2015' in box:
                 lumiErrs.extend([1.027 for bkg in bkgs])
         elif '2017' in box or '2016' in box:
                 lumiErrs.extend([1. for bkg in bkgs])
-	btagErrs.extend([1.031 for bkg in bkgs])
+	btagErrs.extend([1.0 for bkg in bkgs])
         divider = "------------------------------------------------------------\n"
         datacard = "imax 1 number of channels\n" + \
                    "jmax %i number of processes minus 1\n"%(nBkgd+signals-1) + \
@@ -489,6 +489,7 @@ if __name__ == '__main__':
     signalHistosRebin = []
     signalHistos = []
     signalFile = rt.TFile.Open(signalFileName)
+    print '\n\n',signalFileName
     names = [k.GetName() for k in signalFile.GetListOfKeys()]
     for name in names:
         d = signalFile.Get(name)

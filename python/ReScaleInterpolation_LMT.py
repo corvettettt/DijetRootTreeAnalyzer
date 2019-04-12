@@ -29,12 +29,36 @@ if __name__=='__main__':
   Fv_a = array.array('d',Fvalue)
   gr1 = TGraph(len(mass),m_a,Fv_a)
 
-  for k in CSV_Value:
+  if cate == 'mtb':
+    eff = TFile(folder+'/signalHistos_'+flavor+'_L.root')
+    eff_rate=eff.Get('g_'+cate+'tag_rate')
 
+    histo={}
+    for j in ['JER','JESUP','JESDOWN','Nominal']:
+      rootFile = TFile(folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_MT_'+j+'_Interpolation.root')
+      Hlist = rootFile.GetListOfKeys()
+      names = [i.GetName() for i in Hlist]
+
+      for i in names:
+        histo[i]=rootFile.Get(i)
+
+      for i in names:
+        mass = int(i.split('_')[2])
+        eff_rate_mass = eff_rate.Eval(mass)
+        histo[i].Scale(eff_rate_mass)
+ 
+      output=TFile(folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_MT_'+j+'_Interpolation_rescale.root','recreate')
+      for i in names:
+        histo[i].Write(i.replace(model2,model))
+      output.Close
+
+  else:
+   for k in CSV_Value:
+
+    eff = TFile(folder+'/signalHistos_'+flavor+'_'+k+'.root')
     if cate == 'Non':
-      eff_rate = gr1
+      eff_rate = eff.Get("g_an_acc") 
     else:
-      eff = TFile(folder+'/signalHistos_'+flavor+'_'+k+'.root')
       eff_rate=eff.Get('g_'+cate+'tag_rate')
 
     histo={}

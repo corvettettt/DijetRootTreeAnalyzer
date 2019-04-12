@@ -1,9 +1,12 @@
 import os
 
-tag = 'PFNo12DijetYearflavorAlgo'
+tag = 'PFNo30DijetYearflavorAlgo'
 
-L= ['signalHistos_bg_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_CSVv2','signalHistos_bg_Jan_For2017Scan_CSVv2']
-L += ['signalHistos_bg_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_CSVv2','signalHistos_bg_Jan_For2016Scan_CSVv2']
+#L = ['signalHistos_bb_Feb_For2017Scan_CSVv2','signalHistos_bg_Feb_For2017Scan_CSVv2','signalHistos_bb_Feb_For2017Scan_DeepCSV','signalHistos_bg_Feb_For2017Scan_DeepCSV','signalHistos_bb_Feb_For2017Scan_DeepJet','signalHistos_bg_Feb_For2017Scan_DeepJet']
+L = ['signalHistos_bb_Mar_For2017Scan_DeepJet','signalHistos_bg_Mar_For2017Scan_DeepJet']
+#L = ['signalHistos_bb_Mar_For2017Scan_DeepJet','signalHistos_bg_Mar_For2017Scan_DeepJet','signalHistos_bb_Mar_For2017Scan_DeepCSV','signalHistos_bg_Mar_For2017Scan_DeepCSV','signalHistos_bb_Mar_For2017Scan_CSVv2','signalHistos_bg_Mar_For2017Scan_CSVv2']
+#L= ['signalHistos_bg_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_deep','signalHistos_bb_Jan_For2017Scan_CSVv2','signalHistos_bg_Jan_For2017Scan_CSVv2']
+#L += ['signalHistos_bg_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_deep','signalHistos_bb_Jan_For2016Scan_CSVv2','signalHistos_bg_Jan_For2016Scan_CSVv2']
 #L = ['signalHistos_bg_Dec_For2017Scan_deep','signalHistos_bg_Dec_For2016Scan_deep','signalHistos_bg_Dec_For2016Scan_CSVv2','signalHistos_bb_Dec_For2016Scan_deep','signalHistos_bb_Dec_For2017Scan_deep','signalHistos_bb_Dec_For2016Scan_CSVv2','signalHistos_bg_Dec_For2017Scan_CSVv2','signalHistos_bb_Dec_For2017Scan_CSVv2']
 
 ns = ''#'ns'
@@ -27,8 +30,10 @@ for i in L:
 
   if 'CSVv2' in i:
     Algo = 'CSVv2'
-  if 'deep' in i:
-    Algo = 'deep'
+  if 'DeepCSV' in i:
+    Algo = 'DeepCSV'
+  if 'DeepJet' in i:
+    Algo = 'DeepJet'
 
   if '2016' in i:
     Year = '2016'
@@ -44,10 +49,13 @@ for i in L:
       comm2 = 'python python/excute2_2016'+ns+'.py -t '+NewTag+j+' -m '+model+' -p exp -F '+i+'_'+j 
     Total+=comm1+'\n\n'
     Comi += comm2+'\n\n'
-    if index%6 ==0:
+    if index%1 ==0:
        Com_list.append(Comi)
        Comi = ''
-    index = index +1 
+    index = index +1
+Com_list.append(Comi)
+if '' in Com_list:
+  Com_list.remove('')
 index = 0
 for i in Com_list:
    index+=1

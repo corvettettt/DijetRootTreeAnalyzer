@@ -8,15 +8,19 @@ os.system('mkdir '+Dir)
 os.chdir(Dir)
 
 for i in os.listdir('..'):
-  if 'GetMass' == i or 'GetMass_2016'==i:
+#  if 'Efficiency' in i:
+#    os.system('mkdir '+i)
+#    os.system('cp ../'+i+'/*pdf '+ i)
+#  continue
+#  if 'GetMass' == i or 'GetMass_2016'==i:
+#    os.system('mkdir '+i)
+#    os.system('cp ../'+i+'/*pdf '+ i)
+  if 'signalHistos' in i and 'Mar' in i:
     os.system('mkdir '+i)
-    os.system('cp ../'+i+'/*pdf '+ i)
-  if 'signalHistos' in i and 'Dec' in i:
+    os.system('cp ../'+i+'/tag*pdf '+ i)
+  if 'cards' in i and 'No33d' in i or 'No34D' in i and not ('CSVv2' in i or 'DeepCSV' in i):
     os.system('mkdir '+i)
-    os.system('cp ../'+i+'/*pdf '+ i)
-  if 'PFNo11Dijet'in i or 'PFNo10Dijet' in i or 'PFNo7Dijet' in i or 'PFNo8Dijet' in i and 'card' in i :
-    os.system('mkdir '+i)
-    os.system('cp ../fits_2018_10/'+i.split('_')[1]+'Scan/fit*.pdf '+i+'/')
+    os.system('cp ../fits_2019_02/'+i.split('_')[1]+'Scan/fit*.pdf '+i+'/')
     os.system('cp ../'+i+'/*.pdf '+i)
 
 os.chdir('..')

@@ -1,12 +1,12 @@
 import os
 
-FolderName = 'signalHistos_flavor_Jan_ForYearScan_Algo'
+FolderName = 'signalHistos_flavor_Mar_ForYearScan_Algo'
 cata = []
 
 TComm = []
 for a in ['bb','bg']:
-  for b in ['2016','2017']:
-    for c in ['CSVv2','deep']:
+  for b in ['2017']:
+    for c in ['CSVv2','DeepCSV','DeepJet']:
        folder = FolderName.replace('flavor',a).replace('Year',b).replace('Algo',c)
        name=[]
        for i in ['']:
@@ -52,7 +52,7 @@ for a in ['bb','bg']:
          #print('python '+py2+' -m '+add1+' -F '+i+' -c '+i.split('_')[-1])
          #os.system('python '+py2+' -m '+add1+' -F '+i+' -c '+i.split('_')[-1])
 
-excution = 4 
+excution = 6
 command = {}
 for i in range(excution):
   command[i] = '#!/bin/bash\n\n'

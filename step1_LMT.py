@@ -1,8 +1,8 @@
 import sys
  
 command = '' 
-for n in ['CSVv2','deep']:
- for m in ['2017','2016']:
+for n in ['CSVv2','DeepCSV','DeepJet']:
+ for m in ['2017']:
   for i in ['qq','qg']:
     if i == 'qq': 
      flavor = 'bb'
@@ -19,4 +19,3 @@ for n in ['CSVv2','deep']:
 #        command  += 'cp -r signalHistos_%s_Dec_ForScan_'%flavor+n+'_central signalHistos_%s_Dec_ForScan_'%flavor+n+'_central_'+k+'\n'
 	pass
 print command
- 

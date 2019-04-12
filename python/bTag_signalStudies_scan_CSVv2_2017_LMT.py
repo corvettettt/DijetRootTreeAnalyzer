@@ -19,91 +19,95 @@ eosPrefix = ""
 eosPath = "/tmp/TylerW/"
 sampleNames_qg={}
 sampleNames_qg['central'] = {
-500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_500GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New/bstar_9000GeV_reduced_skim.root',
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_central/bstar2JJ9000GeV_reduced_skim.root',
                   }
 
 sampleNames_qg['down'] = {
-500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_500GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_down/bstar_9000GeV_reduced_skim.root',
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_0500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_down/Bstar2JJ_9000GeV_reduced_skim.root',
                   }
 
 sampleNames_qg['up'] = {
-500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_500GeV_reduced_skim.root',
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2qg_New_up/bstar_9000GeV_reduced_skim.root',                  }
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_0500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/bstar2bg_Jet_up/Bstar2JJ_9000GeV_reduced_skim.root',
+}
 
 #CHANGE FILE NAME AS SOON AS THE NTUPLES ARE READY
 sampleNames_qq = {}
 sampleNames_qq['central'] = {
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New/RSG_9000GeV_reduced_skim.root',
-
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_central/R2BB_9000GeV_reduced_skim.root',
                   }
 sampleNames_qq['down'] = {
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_down/RSG_9000GeV_reduced_skim.root',
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_down/R2BB_9000GeV_reduced_skim.root',
+
                   }
 
 sampleNames_qq['up'] = {
-1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_1000GeV_reduced_skim.root',
-2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_2000GeV_reduced_skim.root',
-3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_3000GeV_reduced_skim.root',
-4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_4000GeV_reduced_skim.root',
-5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_5000GeV_reduced_skim.root',
-6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_6000GeV_reduced_skim.root',
-7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_7000GeV_reduced_skim.root',
-8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_8000GeV_reduced_skim.root',
-9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSGraviton2qq_New_up/RSG_9000GeV_reduced_skim.root',
+500:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_500GeV_reduced_skim.root',
+1000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_1000GeV_reduced_skim.root',
+2000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_2000GeV_reduced_skim.root',
+3000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_3000GeV_reduced_skim.root',
+4000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_4000GeV_reduced_skim.root',
+5000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_5000GeV_reduced_skim.root',
+6000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_6000GeV_reduced_skim.root',
+7000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_7000GeV_reduced_skim.root',
+8000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_8000GeV_reduced_skim.root',
+9000:'/eos/cms/store/group/phys_exotica/dijet/Dijet13TeV/TylerW/2017JetHT_reduced/RSG2BB_Jet_up/R2BB_9000GeV_reduced_skim.root',
+
                   }
 
 CSV_Value = {
    'L':0.5803,
    'M':0.8838,
-   'T':0.9693
+   'T':0.9693,
 }
 
 
 treeName = "rootTupleTree/tree"
 massRange  = {500: [75,0,1500],
-              #750: [75,0,1500],
               1000: [50,0,2000],
               2000: [50,0,5000],
               3000: [50,0,5000],
@@ -122,7 +126,15 @@ def bookAndFill(mass,sample,flavour):
     for i,j in CSV_Value.items():
       hDict[i] = {}
 
-    
+   
+    i = 'MT'
+    hDict[i] ={}
+    prefix=str(mass)+'_'+i
+    hDict[i]["h_mass_passed_MTb"] = rt.TH1F(prefix+"_mass_passed_deepCSV_MTb",prefix+"_mass_passed_deepCSV_MTb",massRange[mass][0],massRange[mass][1],massRange[mass][2])  
+    hDict[i]["h_mass_passed_MTb"].SetLineColor(rt.kBlack)
+    hDict[i]["h_mass_passed_MTb"].SetMarkerColor(rt.kBlack)
+    hDict[i]["h_mass_passed_MTb"].SetMarkerSize(0.5)
+ 
     for i,j in CSV_Value.items():
       prefix = str(mass)+"_"+i
       hDict[i]["h_mass_all"]    = rt.TH1F(prefix+"_mass_all",   prefix+"_mass_all",   massRange[mass][0],massRange[mass][1],massRange[mass][2])
@@ -165,14 +177,27 @@ def bookAndFill(mass,sample,flavour):
     for k in progressbar(range(nEntries), "Mass "+str(mass)+": ", 40):
         tchain.GetEntry(k)
 
+        #implement analysis
+	SFs = []
+	if (tchain.jetCSVAK4_j1 > CSV_Value['T'] and tchain.jetCSVAK4_j2 > CSV_Value['T']):
+            SFs.append(tchain.CSVv2SF_t_j1)
+            SFs.append(tchain.CSVv2SF_t_j2)
+        elif (tchain.jetCSVAK4_j1 > CSV_Value['T'] and tchain.jetCSVAK4_j2 > CSV_Value['M']):
+	    SFs.append(tchain.CSVv2SF_t_j1)
+	    SFs.append(tchain.CSVv2SF_m_j2)
+        elif (tchain.jetCSVAK4_j1 > CSV_Value['M'] and tchain.jetCSVAK4_j2 > CSV_Value['T']):
+	    SFs.append(tchain.CSVv2SF_m_j1)
+            SFs.append(tchain.CSVv2SF_t_j2)
+
+	if ((tchain.jetCSVAK4_j1 > CSV_Value['M'] and tchain.jetCSVAK4_j2 > CSV_Value['T']) or (tchain.jetCSVAK4_j1 > CSV_Value['T'] and tchain.jetCSVAK4_j2 > CSV_Value['M'])):
+	   hDict['MT']["h_mass_passed_MTb"].Fill(tchain.mjj,bWeight(SFs,2))
+
+
 	for i,j in CSV_Value.items():
            hDict[i]["h_mass_all"].Fill(tchain.mjj)
         
-           if model == 'qq':
-             if not ( abs(tchain.jetHflavour_j1) == 5 and abs(tchain.jetHflavour_j2) == 5):
-               continue
 
-           #implement analysis
+        #implement a^nalysis
            if not (abs(tchain.deltaETAjj)<1.1       and
                 abs(tchain.etaWJ_j1)<2.5         and
                 abs(tchain.etaWJ_j2)<2.5         and
@@ -184,9 +209,9 @@ def bookAndFill(mass,sample,flavour):
 
                 #tchain.mjj > 1246                and
                 #tchain.mjj < 14000               and
-                
+
                 tchain.PassJSON):
-            continue
+             continue
 
 
            hDict[i]["h_mass_passed"].Fill(tchain.mjj)
@@ -267,7 +292,7 @@ if __name__ == '__main__':
 
     #Create ROOT file and save plain histos
     outName = "signalHistos_"+flavour
-    outFolder = "signalHistos_"+flavour+'_Jan_For2017Scan_CSVv2_'+su
+    outFolder = "signalHistos_"+flavour+'_Mar_For2017Scan_CSVv2_'+su
 
     if not os.path.exists(outFolder):
         os.makedirs(outFolder)
@@ -276,7 +301,7 @@ if __name__ == '__main__':
         outName = ("ResonanceShapes_%s_13TeV_Spring16.root"%model)
 
     g_an_acc={}
-    g_0btag_rate={}
+    g_mtbtag_rate={}
     g_1btag_rate={}
     g_2btag_rate={}
     g_le1btag_rate={}
@@ -288,9 +313,9 @@ if __name__ == '__main__':
     for i,j in CSV_Value.items():
       g_an_acc[i]    = rt.TGraphAsymmErrors()
   
-      g_0btag_rate[i] = rt.TGraphAsymmErrors()
-      g_0btag_rate[i].SetTitle("g_0btag_rate;Resonance Mass [GeV];Tagging Rate")
-      g_0btag_rate[i].SetLineWidth(2)
+      g_mtbtag_rate[i] = rt.TGraphAsymmErrors()
+      g_mtbtag_rate[i].SetTitle("g_mtbtag_rate;Resonance Mass [GeV];Tagging Rate")
+      g_mtbtag_rate[i].SetLineWidth(2)
       g_1btag_rate[i] = rt.TGraphAsymmErrors()
       g_1btag_rate[i].SetMarkerColor(rt.kRed)
       g_1btag_rate[i].SetLineColor(rt.kRed)
@@ -313,14 +338,15 @@ if __name__ == '__main__':
     bin=0 
     for mass,hDict in sorted(mDict.iteritems()):
       for i,j in CSV_Value.items(): 
+
+
         num = hDict[i]["h_mass_passed"].GetSumOfWeights()
         den = hDict[i]["h_mass_all"].GetSumOfWeights()
-        #g_an_acc.SetPoint(bin,mass,num/den)  #wrong. the reduced ntuples have already the selection implemented
+        g_an_acc.SetPoint(bin,mass,num/den)  #wrong. the reduced ntuples have already the selection implemented
 
-        num = hDict[i]["h_mass_passed_0b"].GetSumOfWeights()
-        den = hDict[i]["h_mass_passed"].GetSumOfWeights()
-        g_0btag_rate[i].SetPoint(bin,mass,num/den)
-        g_0btag_weight[i].SetPoint(bin,mass,hDict[i]["h_weight_0b"].GetMean())
+        num = hDict['MT']["h_mass_passed_MTb"].GetSumOfWeights()
+        den = hDict[i]["h_mass_all"].GetSumOfWeights()
+        g_mtbtag_rate[i].SetPoint(bin,mass,num/den)
         num = hDict[i]["h_mass_passed_1b"].GetSumOfWeights()
         g_1btag_rate[i].SetPoint(bin,mass,num/den)
         g_1btag_weight[i].SetPoint(bin,mass,hDict[i]["h_weight_1b"].GetMean())
@@ -342,13 +368,13 @@ if __name__ == '__main__':
         h1.cd()  
 
         hDict[i]["h_mass_passed"].DrawNormalized()
-        hDict[i]["h_mass_passed_0b"].DrawNormalized("sames")
+        hDict['MT']["h_mass_passed_MTb"].DrawNormalized("sames")
         hDict[i]["h_mass_passed_1b"].DrawNormalized("sames")
         hDict[i]["h_mass_passed_2b"].DrawNormalized("sames")
 
         leg = rt.TLegend(0.87, 0.80, 0.96, 0.89)
         leg.AddEntry(hDict[i]["h_mass_passed"],"untagged","L")
-        leg.AddEntry(hDict[i]["h_mass_passed_0b"],"0-tag","P")
+        leg.AddEntry(hDict['MT']["h_mass_passed_MTb"],"0-tag","P")
         leg.AddEntry(hDict[i]["h_mass_passed_1b"],"1-tag","P")
         leg.AddEntry(hDict[i]["h_mass_passed_2b"],"2-tag","P")
         leg.Draw("same")
@@ -357,15 +383,20 @@ if __name__ == '__main__':
 
         for n,h in hDict[i].items():
             h.Write()
-      g_an_acc[i].Write("g_an_acc")
-      g_0btag_rate_Q=Do_Inter(g_0btag_rate[i])
+      g_an_acc_Q = Do_Inter(g_an_acc[i])
+      g_mtbtag_rate_Q=Do_Inter(g_mtbtag_rate[i])
       g_1btag_rate_Q=Do_Inter(g_1btag_rate[i])
       g_2btag_rate_Q=Do_Inter(g_2btag_rate[i])
       g_le1btag_rate_Q=Do_Inter(g_le1btag_rate[i])
 
+      g_an_acc_Q.SetMarkerColor(rt.kViolet)
+      g_an_acc_Q.SetLineColor(rt.kViolet)
+      g_an_acc_Q.SetLineWidth(2)
 
 #        g_0btag_rate_Q.Write("g_0btag_rate")
-      g_0btag_rate_Q.SetLineWidth(2)
+      g_mtbtag_rate_Q.SetMarkerColor(rt.kBlack)
+      g_mtbtag_rate_Q.SetLineColor(rt.kBlack)
+      g_mtbtag_rate_Q.SetLineWidth(2)
 #        g_1btag_rate_Q.Write("g_1btag_rate")
       g_1btag_rate_Q.SetMarkerColor(rt.kRed)
       g_1btag_rate_Q.SetLineColor(rt.kRed)
@@ -378,7 +409,9 @@ if __name__ == '__main__':
       g_le1btag_rate_Q.SetLineColor(rt.kGreen)
       g_le1btag_rate_Q.SetLineWidth(2)
 
-      g_0btag_rate_Q.Write("g_0btag_rate")
+
+      g_an_acc_Q.Write('g_an_acc')
+      g_mtbtag_rate_Q.Write("g_mtbtag_rate")
       g_1btag_rate_Q.Write("g_1btag_rate")
       g_2btag_rate_Q.Write("g_2btag_rate")
       g_le1btag_rate_Q.Write("g_le1btag_rate")
@@ -398,13 +431,15 @@ if __name__ == '__main__':
        c1.SetGridy()
        c1.cd()
 
-       
-       g_0btag_rate_Q=Do_Inter(g_0btag_rate[i])
+       g_an_acc_Q = Do_Inter(g_an_acc[i]) 
+       g_mtbtag_rate_Q=Do_Inter(g_mtbtag_rate[i])
        g_1btag_rate_Q=Do_Inter(g_1btag_rate[i])
        g_2btag_rate_Q=Do_Inter(g_2btag_rate[i])
        g_le1btag_rate_Q=Do_Inter(g_le1btag_rate[i])
 
-       g_0btag_rate_Q.SetLineWidth(2)
+       g_mtbtag_rate_Q.SetLineWidth(2)
+       g_mtbtag_rate_Q.SetMarkerColor(rt.kBlack)
+       g_mtbtag_rate_Q.SetLineColor(rt.kBlack)
        #g_0btag_rate_Q.Write("g_0btag_rate")
 
        g_1btag_rate_Q.SetMarkerColor(rt.kRed)
@@ -422,14 +457,16 @@ if __name__ == '__main__':
        g_le1btag_rate_Q.SetLineWidth(2)
        #g_le1btag_rate_Q.Write("g_le1btag_rate")
  
-       g_0btag_rate_Q.Draw("APL")
-       g_0btag_rate_Q.GetYaxis().SetRangeUser(0,1)
-       g_1btag_rate_Q.Draw("PL,sames")
+       g_1btag_rate_Q.Draw("APL")
+       g_1btag_rate_Q.GetYaxis().SetRangeUser(0,1)
+       g_an_acc_Q.Draw("PL,sames")
+       #g_1btag_rate_Q.Draw("PL,sames")
        g_2btag_rate_Q.Draw("PL,sames")
        g_le1btag_rate_Q.Draw("PL,sames")
    
        leg = rt.TLegend(0.87, 0.80, 0.96, 0.89)
-       leg.AddEntry(g_0btag_rate_Q,"0-tag","L")
+       #leg.AddEntry(g_mtbtag_rate_Q,"MT-tag","L")
+       leg.AddEntry(g_an_acc_Q,"Acceptance","L")
        leg.AddEntry(g_1btag_rate_Q,"1-tag","L")
        leg.AddEntry(g_2btag_rate_Q,"2-tag","L")
        leg.AddEntry(g_le1btag_rate_Q,"le1-tag","L")

@@ -32,6 +32,10 @@ if __name__=='__main__':
     flavor = 'bb'
   elif model == 'qg':
     flavor = 'bg'
-  for i in CSV_Value:
-    print('\n\n\npython python/Working2_2017.py -b '+tag+i+' -f '+tag+i+'Scan -o cards_'+tag+i+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+i+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point+'\n\n\n')
-    os.system('python python/Working2_2017.py -b '+tag+i+' -f '+tag+i+'Scan -o cards_'+tag+i+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+i+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point)
+  if 'mtb' in tag:
+    print('\n\n\npython python/Working2_2017.py -b '+tag.replace('mtb','MT')+' -f '+tag.replace('mtb','MT')+'Scan -o cards_'+tag.replace('mtb','MT')+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+'MT'+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point+'\n\n\n')
+    os.system('python python/Working2_2017.py -b '+tag.replace('mtb','MT')+' -f '+tag.replace('mtb','MT')+'Scan -o cards_'+tag.replace('mtb','MT')+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+'MT'+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point+'\n\n\n')
+  else:
+    for i in CSV_Value:
+      print('\n\n\npython python/Working2_2017.py -b '+tag+i+' -f '+tag+i+'Scan -o cards_'+tag+i+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+i+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point+'\n\n\n')
+      os.system('python python/Working2_2017.py -b '+tag+i+' -f '+tag+i+'Scan -o cards_'+tag+i+'_scan -s '+Folder+'/ResonanceShapes_'+model+'_'+flavor+'_13TeV_Spring16_'+i+'_Nominal_Interpolation_rescale.root -m '+model+' -p ' + point)

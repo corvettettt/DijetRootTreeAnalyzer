@@ -1,8 +1,9 @@
 import sys
  
 command = '' 
-for n in ['CSVv2','deep']:
- for m in ['2017','2016']:
+for n in ['CSVv2','DeepCSV','DeepJet']:
+# for m in ['2017','2016']:
+ for m in ['2017']:
   for i in ['qq','qg']:
     if i == 'qq': 
      flavor = 'bb'

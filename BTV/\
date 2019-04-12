@@ -1,0 +1,193 @@
+n_sv   0   10
+nsv   0.0   10.0
+sv_pt   1.06997263432   2179.9309082
+sv_eta   -2.82835793495   2.75249218941
+sv_phi   -3.13968586922   3.14145064354
+sv_etarel   -0.499996423721   -0.101716399193
+sv_phirel   -0.499999344349   -0.101280033588
+sv_deltaR   -0.499943256378   -0.10002952069
+sv_mass   0.216719970107   105.139373779     1
+sv_ntracks   2.0   23.0
+sv_chi2   4.43277503592e-09   40.2256660461
+sv_ndf   -0.502443790436   41.4495010376
+sv_normchi2   -1000.0   1000.0    1
+sv_dxy   0.000106280909677   47.6049880981   1
+sv_dxyerr   -1.99907743931   0.0    1
+sv_dxysig   0.0109228957444   800.0     1
+sv_d3d   0.00139612401836   106.317558289   1
+sv_d3derr   -1.99837839603   0.0
+sv_d3dsig   0.0241742674261   800.0    1
+sv_costhetasvpv   -0.999999463558   1.0    1
+sv_enratio   0.000662807084154   13.6077947617    1
+npv   4.0   90.0
+rho   2.19828104973   62.4347991943
+ntrueInt   5.02323102951   75.3954620361
+event_no   1   1225
+jet_no   0   15
+gen_pt   8.00604343414   4568.24707031
+Delta_gen_pt   -1326.26831055   1925.05883789
+isB   0   1
+isGBB   0   1
+isBB   0   1
+isLeptonicB   0   1
+isLeptonicB_C   0   1
+isC   0   1
+isGCC   0   1
+isCC   0   1
+isUD   0   1
+isS   0   1
+isG   0   1
+isUndefined   0   1
+genDecay   -1.0   -1.0
+isPhysB   0   1
+isPhysGBB   0   1
+isPhysBB   0   1
+isPhysLeptonicB   0   1
+isPhysLeptonicB_C   0   1
+isPhysC   0   1
+isPhysGCC   0   1
+isPhysCC   0   1
+isPhysUD   0   0
+isPhysS   0   0
+isPhysG   0   1
+isPhysUndefined   0   1
+jet_pt   15.8729906082   4756.20654297
+jet_corr_pt   20.0030460358   4987.14599609
+jet_eta   -2.9958460331   2.99966716766
+jet_phi   -3.14112877846   3.14153075218
+jet_mass   2.0151348114   851.354370117
+jet_energy   20.4479675293   5612.04638672
+jet_looseId   0.0   1.0
+jet_qgl   -0.0   1.0
+QG_ptD   0.0   1.0
+QG_axis2   0.0   0.17917022109
+QG_mult   0.0   107.0
+y_multiplicity   0.0   107.0
+y_charged_multiplicity   0.0   85.0
+y_neutral_multiplicity   0.0   43.0
+y_ptD   0.0   1.0
+y_axis1   0.0   0.276201367378
+y_axis2   0.0   0.17917022109
+y_pt_dr_log   0.0   441.52166748
+muons_number   0   26
+electrons_number   0   4
+muons_isLooseMuon   0   3146002944
+muons_isTightMuon   0   3156720928
+muons_isSoftMuon   0   3180460060
+muons_isHighPtMuon   0   3196526601
+muons_pt   -0.342672139406   5000
+muons_relEta   -0.398398011923   5 
+muons_relPhi   -7   7 
+muons_energy   -6.5839212348e+30   5000.07346623146
+electrons_pt   0.373306453228   2284.74438477
+electrons_relEta   -0.388589113951   0.396436780691
+electrons_relPhi   -0.390848398209   0.392045974731
+electrons_energy   0.000513762119226   1.12007713318
+gen_pt_Recluster   3.00358557701   4568.14257812
+gen_pt_WithNu   3.00358557701   4568.14257812
+Delta_gen_pt_Recluster   -1500.29492188   1815.01940918
+Delta_gen_pt_WithNu   -1181.6706543   2791.72924805
+pfCombinedInclusiveSecondaryVertexV2BJetTags   -10.0   0.999502003193
+pfCombinedMVAV2BJetTags   -0.98863607645   0.999975264072
+pfDeepCSVJetTags_probb   -1.0   0.998231470585
+pfDeepCSVJetTags_probbb   -1.0   0.995581865311
+pfDeepCSVJetTags_probc   -1.0   0.86911469698
+pfDeepCSVJetTags_probudsg   -1.0   0.983834862709
+pfJetBProbabilityBJetTags   -0.0   10.9198522568
+pfJetProbabilityBJetTags   -0.0   3.25720858574
+softPFElectronBJetTags   -0.10000000149   0.991095006466    1
+softPFMuonBJetTags   -0.10000000149   0.816702365875    1
+n_Cpfcand   0   50
+nCpfcand   0.0   50.0
+Cpfcan_pt   0.9501953125   704.0   1
+Cpfcan_eta   -3.00137329102   3.0103456974
+Cpfcan_phi   -3.14158678055   3.14159154892
+Cpfcan_ptrel   -0.999778807163   -0.6232369303703   1
+Cpfcan_erel   -0.999773800373   -0.6235543847084   1
+Cpfcan_phirel   -0.499999552965   0.0
+Cpfcan_etarel   -0.499999940395   0.0
+Cpfcan_deltaR   -0.599973320961   -0.0729018449783
+Cpfcan_puppiw   0.0   1.0
+Cpfcan_dxy   0.0   10.2000007629   1
+Cpfcan_dxyerrinv   -1.0   2302.94702148
+Cpfcan_dxysig   0.0   300.0   1
+Cpfcan_dz   -30.7461547852   30.689727783    1
+Cpfcan_VTX_ass   0.0   7.0
+Cpfcan_fromPV   0.0   3.0
+Cpfcan_drminsv   -0.399939268827   0.0
+Cpfcan_vertex_rho   0.000353022653144   15.2509307861   1
+Cpfcan_vertex_phirel   -3.14153313637   3.14157485962
+Cpfcan_vertex_etarel   -9.70848560333   8.27912044525
+Cpfcan_BtagPf_trackMomentum   0.218533068895   400.0   1
+Cpfcan_BtagPf_trackEta   -3.00137329102   3.0103456974
+Cpfcan_BtagPf_trackEtaRel   -2.30347156525   8.87619686127
+Cpfcan_BtagPf_trackPtRel   0.000239702218096   4.0
+Cpfcan_BtagPf_trackPPar   -0.786515474319  2000.5703125
+Cpfcan_BtagPf_trackDeltaR   2.66491424554e-05   0.7703676224
+Cpfcan_BtagPf_trackPtRatio   2.31878439081e-05   0.499413430691
+Cpfcan_BtagPf_trackPParRatio   0.5   1.0
+Cpfcan_BtagPf_trackSip3dVal   -1.0   20.3715438843  1
+Cpfcan_BtagPf_trackSip3dSig   -1.0   1016.6835938   1
+Cpfcan_BtagPf_trackSip2dVal   -1.0   15.2031745911  1
+Cpfcan_BtagPf_trackSip2dSig   -1.0   401.35205078
+Cpfcan_BtagPf_trackDecayLen   0.0   0.0
+Cpfcan_BtagPf_trackJetDistVal   -10.0   0.0    1
+Cpfcan_BtagPf_trackJetDistSig   0.0   0.0
+Cpfcan_isMu   0.0   1.0
+Cpfcan_isEl   0.0   1.0
+Cpfcan_lostInnerHits   -1.0   2.0
+Cpfcan_numberOfPixelHits   0.0   10.0
+Cpfcan_chi2   -1.0   20.0  1
+Cpfcan_quality   1.0   5.0
+n_Npfcand   0   44
+nNpfcand   0.0   44.0
+Npfcan_pt   0.9501953125   3088.0   1
+Npfcan_eta   -3.26725053787   3.26487016678
+Npfcan_phi   -3.14159083366   3.14150738716
+Npfcan_ptrel   -0.999783158302   -0.011631667614   1
+Npfcan_erel   -0.999791324139   -0.0115058422089   1
+Npfcan_puppiw   0.0   1.0   1
+Npfcan_phirel   -0.499999314547   -0.0104942023754
+Npfcan_etarel   -0.499998748302   0.0
+Npfcan_deltaR   -0.599921047688   -0.0689290165901
+Npfcan_isGamma   0.0   1.0
+Npfcan_HadFrac   0.0   1.0
+Npfcan_drminsv   -0.399942427874   0.0
+trackJetPt   -999.0   3419.5222168
+jetNTracks   -1.0   75.0
+TagVarCSV_jetNSecondaryVertices   0.0   7.0
+TagVarCSV_trackSumJetEtRatio   -15.0   11.7484407425
+TagVarCSV_trackSumJetDeltaR   -15.0   4.04663324356
+TagVarCSV_vertexCategory   -1.0   2.0
+TagVarCSV_trackSip2dValAboveCharm   -20.0   0.196467518806
+TagVarCSV_trackSip2dSigAboveCharm   -20.0   69.3019561768   1
+TagVarCSV_trackSip3dValAboveCharm   -20.0   0.464666098356
+TagVarCSV_trackSip3dSigAboveCharm   -20.0   104.86214447
+n_TagVarCSV_jetNSelectedTracks   0   40
+TagVarCSV_jetNSelectedTracks   0.0   40.0
+TagVarCSVTrk_trackPtRel   0.000338176323567   40.627296448   1
+TagVarCSVTrk_trackDeltaR   2.67036539299e-05   0.2999972999   11
+TagVarCSVTrk_trackPtRatio   2.32352740568e-05   0.29513335228   1
+TagVarCSVTrk_trackSip3dSig   -60.939117432   101.168212891   1 
+TagVarCSVTrk_trackSip2dSig   -36.5614471436   53.464004517   1
+TagVarCSVTrk_trackDecayLenVal   4.17587798438e-05   4.99927091599
+TagVarCSVTrk_trackJetDistVal   -0.0699950233102   -1.62399373949e-08
+n_TagVarCSV_jetNTracksEtaRel   0   28
+TagVarCSV_jetNTracksEtaRel   0.0   28.0
+TagVarCSV_trackEtaRel   -2.04160118103   8.46962833405
+trackPParRatio   1.0055456078053   0.95
+trackSip2dVal   -0.102968770862   0.109480578303    1
+trackSip3dVal   -0.23402354717   0.3245872974     4
+trackMomentum   0.0704514086246   707.39770508   1
+trackEta   -3.00137329102   2.98159742355
+trackPPar   0.069469563663   700.3918457    1
+n_StoredVertices   0   1
+NStoredVertices   0.0   1.0
+TagVarCSV_vertexMass   0.282098889351   561.425170898
+TagVarCSV_vertexNTracks   2.0   28.0
+TagVarCSV_vertexEnergyRatio   0.00288446177728   4.5110969543    1
+TagVarCSV_vertexJetDeltaR   0.000426024082117   0.299808144569
+TagVarCSV_flightDistance2dVal   0.0   2.49534845352
+TagVarCSV_flightDistance2dSig   0.0   553.587463379    1
+TagVarCSV_flightDistance3dVal   0.0   12.4697151184
+TagVarCSV_flightDistance3dSig   0.0   616.076293945   1

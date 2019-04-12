@@ -80,6 +80,8 @@ def QuaInter(F):
         for j in [y for y in mass if y!=i]:
            term = (float(x)-float(j))/(float(i)-float(j))*term
         z=z+term*F.Eval(i)
+     if z<0:
+	  z = 0
      return  z
   return Func
 
@@ -122,7 +124,7 @@ def bWeight(SFsForBTaggedJets, nBTags):
 
 def Do_Inter(Rate):
   mass = [1000.0,2000.0,3000.0,4000.0,5000.0,6000.0,7000.0,8000.0,9000.0]
-  Inter = QuaInter (Rate)
+  Inter = QuaInter(Rate)
   Return_plot = rt.TGraphAsymmErrors()
   num = -1
   for M in range(1000,9000,100):
@@ -146,7 +148,13 @@ def progressbar(it, prefix="", size=60):
     sys.stdout.flush()
 
 
-
+def TGraph2DEval(d2graph,pT,Eta):
+  if pT >1000:
+    pT = 1000
+  for i in range(200):
+    for j in range(100):
+      if (5*i)<=pT<=(5*(i+1)) and (-3.14+0.0628*j)<=Eta<=(-3.14+0.0628*(j+1)):
+	return d2graph.GetBinContent(i,j)
 
 def bookAndFill(mass,sample,flavour):
     

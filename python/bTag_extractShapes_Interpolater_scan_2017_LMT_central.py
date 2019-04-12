@@ -7,7 +7,7 @@ import glob
 
 
 #to import samples names
-from bTag_signalStudies_scan_deep_2017_LMT import *
+from bTag_signalStudies_scan_DeepCSV_2017_LMT import *
 
 usage = """usage: python python/bTag_extractShapes.py -e none -m qq"""
 
@@ -33,8 +33,6 @@ def makeShape(mass, sample, model):
 
 
         #select bb events at gen level
-        if (model == 'qq' and (tchain.jetHflavour_j1 != 5 or tchain.jetHflavour_j2 != 5)):
-            continue
 
         if not (abs(tchain.deltaETAjj)<1.1       and
                 abs(tchain.etaWJ_j1)<2.5         and
@@ -93,10 +91,10 @@ def makeShape(mass, sample, model):
 
 
 
-def scaleShape(mass, histo, g_eff):
-  if g_eff =='Non':
+def scaleShape(mass, histo, g_eff,cate):
+  if cate =='Non':
     histo_tmp = rt.TH1F('tmp'+str(mass),'tmp'+str(mass), 75, 0., 1.5)
-    sFactor = 1
+    sFactor = g_eff.Eval(mass) 
     histo.Copy(histo_tmp)
     histo_tmp.Scale(sFactor)
     return histo_tmp
@@ -158,7 +156,27 @@ if __name__ == '__main__':
     for mass, sample in sorted(sampleNames.iteritems()):
        histo[mass] = makeShape(mass,sample,model)
 
-    for i in CSV_Value:
+    if cate == 'mtb':
+      if model == 'qg':
+        effFile = rt.TFile(options.eff+'/signalHistos_bg_L.root')  
+      if model == 'qq':
+        effFile = rt.TFile(options.eff+'/signalHistos_bb_L.root')  
+      for Type in LIST:
+        rootFile = rt.TFile(outFolder+"/ResonanceShapes_"+model+"_"+flavor+"_13TeV_Spring16_"+"MT"+'_'+Type+".root", 'recreate')
+        for mass, sample in sorted(sampleNames.iteritems()):  
+            if (model == "qq"):
+              g_eff = effFile.Get("g_"+cate+"tag_rate")
+            elif (model == "qg"):
+              g_eff = effFile.Get("g_"+cate+"tag_rate")
+            else:
+              print "model unknown"
+              exit
+            histo_scaled=scaleShape(mass, histo[mass][Type], g_eff)
+            histo_scaled.Write()
+        rootFile.Close() 
+
+    else:
+     for i in CSV_Value:
 
       if model == 'qg':
         effFile = rt.TFile(options.eff+'/signalHistos_bg_'+i+'.root')  
@@ -168,8 +186,8 @@ if __name__ == '__main__':
 	rootFile = rt.TFile(outFolder+"/ResonanceShapes_"+model+"_"+flavor+"_13TeV_Spring16_"+i+'_'+Type+".root", 'recreate')
         for mass, sample in sorted(sampleNames.iteritems()):  
           if cate=='Non':
-            g_eff = 'Non'
-	    histo_scaled=scaleShape(mass, histo[mass][Type], g_eff)
+	    g_eff = effFile.Get("g_an_acc")
+	    histo_scaled=scaleShape(mass, histo[mass][Type], g_eff,cate)
 	    histo_scaled.Write()
           else:
             if (model == "qq"):
@@ -179,7 +197,7 @@ if __name__ == '__main__':
             else:
               print "model unknown"
               exit
-            histo_scaled=scaleShape(mass, histo[mass][Type], g_eff)
+            histo_scaled=scaleShape(mass, histo[mass][Type], g_eff,cate)
             histo_scaled.Write()
  	rootFile.Close() 
   
